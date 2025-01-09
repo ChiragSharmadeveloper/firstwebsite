@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react' 
+
 
 function App() {
   return (
@@ -6,7 +7,10 @@ function App() {
      <div className="App">
       <header className="App-header">
        <h1>BBS</h1>
-       <image src='./logo.pdf.jpg'></image>
+      <img src="/image/logo.pdf.jpg" alt='image1'
+      height={150}
+      width={150}></img>
+
        <ul>
         <li>HOME</li>
         <li>SUPPORT</li>
