@@ -63,3 +63,6 @@ nav ul {
   .dropdown:hover > a {
     background-color: #575757;
   }
+  .App{
+    display: flex;
+  }
