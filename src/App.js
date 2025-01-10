@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
        <h1>BBS</h1>
       <img src="/image/logo.pdf.jpg" alt='image1' id='foto'></img>
-       <ul>
+       <ul className='nav'>
         <li class="dropdown">
         <a href="#">Menu</a>
         <div class="dropdown-content">
