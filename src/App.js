@@ -15,7 +15,7 @@ function App() {
           <a href="#">Home</a>
           <a href="#">About</a>
           <a href="#">Contact Us</a>
-          <a href="#">Support</a>
+          <a href="#">Support Us by donating.</a>
         </div>
       </li>
        </ul>      
