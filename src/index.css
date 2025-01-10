@@ -64,5 +64,5 @@ nav ul {
     background-color: #575757;
   }
   .App{
-    display: flex;
+    display: inline-block;
   }
