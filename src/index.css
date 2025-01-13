@@ -14,23 +14,26 @@
     width: 40px;
     height: 40px;
 }
-nav ul {
+.nav ul {
     margin-right: 20px;
     padding-left: 20px;
     text-align: center;
     color: white;
   }
   
-  nav ul li {
+.nav ul li {
     display: inline-block;
     position: relative;
   }
   
-  nav ul li a {
+.nav ul li a {
     color: white;
     text-decoration: none;
     padding: 10px 20px;
     display: block;
+  }
+  #men{
+    text-decoration: none;
   }
   
   /* Dropdown container */

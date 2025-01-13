@@ -1,5 +1,5 @@
 import React from 'react' 
-import Card from './Card';
+import Banner from './Banner';
 import"./index.css"
 
 function App() {
@@ -7,11 +7,9 @@ function App() {
     <>
      <div className="App">
       <header className="App-header">
-       <h1>BBS</h1>
-      <img src="/image/logo.pdf.jpg" alt='image1' id='foto'></img>
-       <ul className='nav'>
-        <li class="dropdown">
-        <button>Menu</button>
+      <ul className='nav'>
+      <li class="dropdown">
+        <button id="men">Menu</button>
         <div class="dropdown-content">
           <a href="#">Home</a>
           <a href="#">About</a>
@@ -19,27 +17,14 @@ function App() {
           <a href="#">Support </a>
         </div>
       </li>
-       </ul>      
+      </ul>      
+       <h1>BBS</h1>
+      <img src="/image/logo.pdf.jpg" alt='image1' id='foto'></img>
+      
+       
       </header>
       </div>
-      <div className="card">
-    <Card image={"/image/kit.jpg.jpg"} title={"Full Kit"}/>
-    <Card/>
-
-    <Card/>
-
-    <Card/>
-
-    <Card/>
-
-    <Card/>
-
-    <Card/>
-
-    <Card/>
-
-    </div>
-
+    <Banner title={"THIS IS BB SPORTS "} urlimage={"/image/logo.pdf.jpg"}/> 
     </>
   );
 }

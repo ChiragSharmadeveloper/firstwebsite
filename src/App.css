@@ -7,3 +7,12 @@
   grid-template-columns: auto auto auto auto;
   margin:90px;
 }
+#foto2{
+  height: 400px;
+  width: 500px;
+}
+.banner{
+  display: flex;
+  background-color: black;
+  color: white;
+}
