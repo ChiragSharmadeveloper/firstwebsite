@@ -9,10 +9,18 @@
 }
 #foto2{
   height: 400px;
-  width: 500px;
+  width: 450px;
 }
 .banner{
   display: flex;
-  background-color: black;
+  background-color: crimson;
   color: white;
+  margin: 80px 50px ;
+  padding: 30px;
+}
+
+.cardholder{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 40px;
 }
