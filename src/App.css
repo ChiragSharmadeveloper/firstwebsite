@@ -22,5 +22,33 @@
 .cardholder{
   display: grid;
   grid-template-columns: auto auto auto auto;
-  margin: 40px;
+  justify-content: space-evenly;
+}
+.imgform {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  object-fit: cover;
+   animation: rotateAndScale 4s infinite;
+}
+#img1{
+ width: 350px;
+ height: 470px;
+}
+@keyframes rotateAndScale {
+  0% {
+    transform: rotate(0deg) scale(1); /* Starting state */
+  }
+  25% {
+    transform: rotate(90deg) scale(1.2); /* Rotate 90deg, scale to 1.2 */
+  }
+  50% {
+    transform: rotate(180deg) scale(1); /* Rotate 180deg, reset scale */
+  }
+  75% {
+    transform: rotate(270deg) scale(1.2); /* Rotate 270deg, scale to 1.2 */
+  }
+  100% {
+    transform: rotate(360deg) scale(1); /* Reset to original state */
+  }
 }

@@ -11,8 +11,9 @@
 #foto{
     border-radius: 50%;
     box-shadow: 5px grey;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
 }
 .dropdown ul {
     margin-right: 10px;
@@ -32,7 +33,11 @@
     padding: 10px 20px;
     display: block;
   }
-  #men{
-    text-decoration: none;
+  .dropbtn{
+    margin: 20px;
   }
-  
+  #login{
+    font-size:xx-large;
+    margin: 20px;
+    color: white;
+  }

@@ -21,6 +21,7 @@ function App() {
         </div>   
       <img src="/image/logo.pdf.jpg" alt='image1' id='foto'></img> 
        <h1>BBS</h1>
+      <a href='#'><i class="fa-solid fa-user" id='login'></i></a>
       </header>
       </div>
     <Banner title={"BB Sports: Your Ultimate Destination for Cricket Gear "} urlimage={"/image/logo.pdf.jpg"}/> 
