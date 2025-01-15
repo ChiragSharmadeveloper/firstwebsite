@@ -26,7 +26,7 @@ const Banner = ({title , urlimage}) => {
     <Card image={"/image/PP2.jpg"} title1={"BATTING PADS"} id="card3"/>
     <Card image={"/image/limited gloves.jpg"} title1={"BAGS"} id="card4"/>
     </div>
-    <div className='imgform'>
+    {/* <div className='imgform'>
       <img src='/image/PP 1.jpg' id='img1'></img>
       <img src='/image/PP2.jpg' id='img1' ></img>
       <img src='/image/PP3.jpg' id='img1'></img>
@@ -35,6 +35,11 @@ const Banner = ({title , urlimage}) => {
       <img src='/image/test pro 2.jpg' id='img1' ></img>
       <img src='/image/test pro 3.jpg' id='img1'></img>
     
+    </div> */}
+    <div className="image-main">
+    <div className="image-container"></div>
+    <div className="image-container"></div>
+    <div className="image-container"></div>
     </div>
     </>
     )
