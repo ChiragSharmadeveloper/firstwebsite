@@ -1,12 +1,4 @@
 import React from 'react'
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-import { useEffect } from 'react'
->>>>>>> Stashed changes
-=======
-import { useEffect } from 'react'
->>>>>>> Stashed changes
 import './Video.css'
 
 const VideoPlayer = () => {
