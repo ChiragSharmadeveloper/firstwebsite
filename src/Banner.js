@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from './Card'
+import Video from './Video'
 import './App.css'
 
 const Banner = ({title , urlimage}) => {
@@ -26,7 +27,7 @@ const Banner = ({title , urlimage}) => {
     <Card image={"/image/PP2.jpg"} title1={"BATTING PADS"} id="card3"/>
     <Card image={"/image/limited gloves.jpg"} title1={"BAGS"} id="card4"/>
     </div>
-    <div className='imgform'>
+    {/* <div className='imgform'>
       <img src='/image/PP 1.jpg' id='img1'></img>
       <img src='/image/PP2.jpg' id='img1' ></img>
       <img src='/image/PP3.jpg' id='img1'></img>
@@ -35,7 +36,14 @@ const Banner = ({title , urlimage}) => {
       <img src='/image/test pro 2.jpg' id='img1' ></img>
       <img src='/image/test pro 3.jpg' id='img1'></img>
     
+    </div> */}
+      <h1 id='believe'> ————  BELIEVE IN YOUR SELF  ————</h1>
+    <div className="image-main">
+    <div className="image-container"></div>
+    <div className="image-container"></div>
+    <div className="image-container"></div>
     </div>
+    <Video/>
     </>
     )
 }
