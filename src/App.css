@@ -58,3 +58,28 @@
     background-image: url("/public/image/bat 4.jpg");
  }
 }
+.fot ul{
+  list-style-type:none;
+}
+.fot{
+  display:flex;
+  justify-content: space-between;
+  background-color:#555555;
+  color:white;
+  margin:auto;
+}
+.fot ul li{
+  margin:10px;
+  font-size: large;
+  font-weight: bold;
+}
+.fot ul li a{
+  text-decoration: none;
+  color:white;
+}
+.foot{
+  width:100%;
+  margin-top: 60px;
+  background-color: black;
+  gap:70px;
+}

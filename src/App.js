@@ -13,10 +13,10 @@ function App() {
       <i class="fa-solid fa-bars"></i>
      </button>
      <ul class="dropdown-content">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Support </a></li> 
+          <li><a href="https://www.amazon.in/">Home</a></li>
+          <li><a href="https://www.amazon.in/">About</a></li>
+          <li><a href="https://www.amazon.in/">Contact Us</a></li>
+          <li><a href="https://www.amazon.in/">Support </a></li> 
         </ul> 
         </div>   
       <img src="/image/logo.pdf.jpg" alt='image1' id='foto'></img> 
