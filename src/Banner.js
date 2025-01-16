@@ -1,7 +1,9 @@
 import React from 'react'
+
 import Card from './Card'
-import Video from './Video'
 import './App.css'
+import './Video.css'
+import VideoPlayer from './Video'
 
 const Banner = ({title , urlimage}) => {
   return (
@@ -43,9 +45,8 @@ const Banner = ({title , urlimage}) => {
     <div className="image-container"></div>
     <div className="image-container"></div>
     </div>
-    <Video/>
+<VideoPlayer/>
     </>
     )
 }
-
 export default Banner
