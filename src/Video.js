@@ -1,4 +1,5 @@
 import React from 'react'
+import './Video'
 
 const Video = () => {
   return (
