@@ -37,7 +37,7 @@ const Banner = ({title , urlimage}) => {
       <img src='/image/test pro 3.jpg' id='img1'></img>
     
     </div> */}
-      <h1 id='believe'> ————  BELIEVE IN YOUR SELF  ————</h1><br></br><br></br>
+      <h1 id='believe'> ————  BELIEVE IN YOUR SELF  ————</h1>
     <div className="image-main">
     <div className="image-container"></div>
     <div className="image-container"></div>
