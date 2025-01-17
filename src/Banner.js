@@ -35,12 +35,12 @@ const Banner = ({title , urlimage}) => {
     <div className="image-container"></div>
     </div>
     <div>
-      <div>
+      <div className='selfimg'>
         <h1 >— SELF ——</h1>
-        <img src="public\image\athlete1.jpg"></img>
+    <Card image={"/image/athlete1.jpg"}  id="card5"/>
       </div>
       <div>
-      <img src="public\image\athlete1.jpg"></img>
+    <Card image={"/image/athlete2.jpg"}  id="card5"/>
       <h1 >——— BELIEVE —</h1>
       </div>
     </div>
