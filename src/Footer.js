@@ -47,7 +47,6 @@ const Footer = () => {
   <i><FaLinkedinIn /></i>
   <a href="https://youtube.com/@babitasports?si=BeoSVuQIT6tjKiiJ" target="_blank"><i><AiOutlineYoutube /></i></a>
         </ul>
-        
       </div>
       </footer>
     </>
