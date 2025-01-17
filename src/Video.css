@@ -14,15 +14,9 @@
 }
 .video-item video{
     border-radius: 25px;
-<<<<<<< HEAD
-
 }
-=======
-   
+#ketan{
+    width: 250px;
+    height: 150px;
+    justify-content: right;
 }
-
-#card5{
-    width: 150px;
-    height: 100px;
-}
->>>>>>> 5b371ba08105425870c0158301dfc7bf507bec37

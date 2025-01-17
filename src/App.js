@@ -27,7 +27,6 @@ function App() {
       </div>
     <Banner title={"BB Sports: Your Ultimate Destination for Cricket Gear "} urlimage={"/image/logo.pdf.jpg"}/> 
 <Footer/>
-
     </>
   );
 }
