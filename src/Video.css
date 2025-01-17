@@ -15,8 +15,33 @@
 .video-item video{
     border-radius: 25px;
 }
+.banner2{
+    margin: 80px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 10%;
+}
+.self{
+    font-size: 50px;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.believe{
+    font-size: 50px;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif ;
+}
 #ketan{
     width: 250px;
     height: 150px;
     justify-content: right;
+    width: 50%;
+
+}
+#ashish{
+    width: 250px;
+    height: 150px;
+    justify-content: right;
+    width: 50%;
+
 }

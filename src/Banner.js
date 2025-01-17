@@ -36,7 +36,7 @@ const Banner = ({title , urlimage}) => {
     </div>
     <div className='banner2'>
       <div className='self'>
-        <h1 >— SELF ——</h1>
+        <h1 > SELF. </h1>
         </div>
         <div className='ketan'>
         <img src="./image/athlete1.jpg" id='ketan'/>
@@ -45,7 +45,7 @@ const Banner = ({title , urlimage}) => {
     <img src="./image/athlete2.jpg" alt='ashish chauhan' id='ashish'/>
     </div>
         <div className='believe'>
-      <h1 >——— BELIEVE —</h1>
+      <h1 > BELIEVE. </h1>
       </div>
     </div>
 <VideoPlayer/>
