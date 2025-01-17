@@ -23,6 +23,7 @@
   display: grid;
   grid-template-columns: auto auto auto auto;
   justify-content: space-evenly;
+ 
 }
 .image-main{
   margin-top: 60px;
@@ -40,6 +41,8 @@
   border-radius: 15px ;
   width: 350px;
   height: 470px;
+  overflow: hidden; 
+  object-fit: cover;
   background-size: cover;
   background-position: center;
   animation: changeImage 10s infinite;
