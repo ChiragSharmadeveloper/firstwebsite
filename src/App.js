@@ -1,5 +1,6 @@
 import React from 'react' 
 import Banner from './Banner';
+import Footer from './Footer';
 
 import"./index.css"
 
@@ -25,6 +26,8 @@ function App() {
       </header>
       </div>
     <Banner title={"BB Sports: Your Ultimate Destination for Cricket Gear "} urlimage={"/image/logo.pdf.jpg"}/> 
+<Footer/>
+
     </>
   );
 }
