@@ -6,7 +6,8 @@ import VideoPlayer from './Video'
 
 const Banner = ({title , urlimage}) => {
   return (
-    <><div className='banner'>
+    <>
+    <div className='banner'>
       <div>
         <h1>{title}</h1>
         <p>Welcome to BB Sports, your one-stop shop for all things cricket. As passionate cricket enthusiasts, we understand the importance of quality equipment in enhancing performance on the field. Whether you're a beginner or a seasoned pro, we offer a wide range of cricket products designed to suit players of all levels.
@@ -34,19 +35,18 @@ const Banner = ({title , urlimage}) => {
     <div className="image-container"></div>
     <div className="image-container"></div>
     </div>
-<<<<<<< HEAD
     <div>
       <div className='selfimg'>
         <h1 >— SELF ——</h1>
     <Card image={"./image/athlete1.jpg"}  id="card5"/>
-=======
+
     <div className='banner2'>
       <div className='self'>
         <h1 > SELF. </h1>
         </div>
         <div className='ketan'>
         <img src="./image/athlete1.jpg" id='ketan'/>
->>>>>>> b820a0572bc287e126b50dbaaff05cdf215e28a2
+
       </div>
       <div className='ashish'>
     <img src="./image/athlete2.jpg" alt='ashish chauhan' id='ashish'/>
@@ -55,8 +55,9 @@ const Banner = ({title , urlimage}) => {
       <h1 > BELIEVE. </h1>
       </div>
     </div>
+    </div>
 <VideoPlayer/>
     </>
-    )
-}
-export default Banner
+    );
+};
+export default Banner;
