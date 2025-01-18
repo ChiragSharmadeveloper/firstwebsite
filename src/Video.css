@@ -14,7 +14,43 @@
 .video-item video{
     border-radius: 25px;
 }
+<<<<<<< HEAD
 #card5{
     width: 150px;
     height: 100px;
+=======
+.banner2{
+    margin: 100px 80px 100px 80px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 5%;
+    row-gap: 0%;
+}
+.self{
+    margin-bottom: 0%;
+    font-size: 60px;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.believe{
+    font-size: 60px;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+#ketan{
+    margin-bottom: 0%;
+    width: 200px;
+    height: 120px;
+    justify-content: right;
+    width: 50%;
+    padding: 12% 0px 0px 140px ;
+}
+#ashish{
+    width: 250px;
+    height: 100px;
+    justify-content: right;
+    width: 50%;
+    padding-top: 22%;
+    border-radius: 5px;
+>>>>>>> b820a0572bc287e126b50dbaaff05cdf215e28a2
 }

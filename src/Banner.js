@@ -34,14 +34,25 @@ const Banner = ({title , urlimage}) => {
     <div className="image-container"></div>
     <div className="image-container"></div>
     </div>
+<<<<<<< HEAD
     <div>
       <div className='selfimg'>
         <h1 >— SELF ——</h1>
     <Card image={"./image/athlete1.jpg"}  id="card5"/>
+=======
+    <div className='banner2'>
+      <div className='self'>
+        <h1 > SELF. </h1>
+        </div>
+        <div className='ketan'>
+        <img src="./image/athlete1.jpg" id='ketan'/>
+>>>>>>> b820a0572bc287e126b50dbaaff05cdf215e28a2
       </div>
-      <div>
-    <Card image={"/image/athlete2.jpg"}  id="card5"/>
-      <h1 >——— BELIEVE —</h1>
+      <div className='ashish'>
+    <img src="./image/athlete2.jpg" alt='ashish chauhan' id='ashish'/>
+    </div>
+        <div className='believe'>
+      <h1 > BELIEVE. </h1>
       </div>
     </div>
 <VideoPlayer/>
