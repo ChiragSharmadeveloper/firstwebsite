@@ -9,20 +9,12 @@
     height: 400px;
     margin-left: 50px;
     display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));  
 }
 .video-item video{
     border-radius: 25px;
-<<<<<<< HEAD
-
 }
-=======
-   
-}
-
 #card5{
     width: 150px;
     height: 100px;
 }
->>>>>>> 5b371ba08105425870c0158301dfc7bf507bec37
