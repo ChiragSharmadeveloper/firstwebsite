@@ -1,13 +1,12 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Card from './Card'
 import './App.css'
 import './Video.css'
-import VideoPlayer from './Video'
 
 const Banner = ({title , urlimage}) => {
   return (
-      <>
-    <div className='banner'>
+      <> 
+      <div className='banner'>
       <div>
         <h1>{title}</h1>
         <p>Welcome to BB Sports, your one-stop shop for all things cricket. As passionate cricket enthusiasts, we understand the importance of quality equipment in enhancing performance on the field. Whether you're a beginner or a seasoned pro, we offer a wide range of cricket products designed to suit players of all levels.
@@ -51,12 +50,14 @@ const Banner = ({title , urlimage}) => {
     <img src="./image/athlete2.jpg" alt='ashish chauhan' id='ashish'/>
     </div>
         <div className='believe'>
-      <h1 > BELIEVE. </h1>
+      <h1> BELIEVE. </h1>
       </div>
     </div>
+    </div> 
     </div>
-  <VideoPlayer/>
     </>
-  )
+  );
 };
-  export default Banner;
+
+
+export default Banner;

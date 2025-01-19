@@ -14,12 +14,11 @@
 .video-item video{
     border-radius: 25px;
 }
-<<<<<<< HEAD
 #card5{
     width: 150px;
     height: 100px;
-=======
-.banner2{
+}
+    .banner2{
     margin: 100px 80px 100px 80px;
     display: grid;
     grid-template-columns: auto auto;
@@ -52,5 +51,4 @@
     width: 50%;
     padding-top: 22%;
     border-radius: 5px;
->>>>>>> b820a0572bc287e126b50dbaaff05cdf215e28a2
 }
