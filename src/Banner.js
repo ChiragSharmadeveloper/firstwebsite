@@ -6,7 +6,7 @@ import VideoPlayer from './Video'
 
 const Banner = ({title , urlimage}) => {
   return (
-    <>
+      <>
     <div className='banner'>
       <div>
         <h1>{title}</h1>
@@ -35,10 +35,7 @@ const Banner = ({title , urlimage}) => {
     <div className="image-container"></div>
     <div className="image-container"></div>
     </div>
-<<<<<<< HEAD
-=======
     <div>
->>>>>>> 4a6c363cff6f321ca0bafb99f3f60a811853d57b
       <div className='selfimg'>
         <h1 >— SELF ——</h1>
     <Card image={"./image/athlete1.jpg"}  id="card5"/>
@@ -49,10 +46,6 @@ const Banner = ({title , urlimage}) => {
         </div>
         <div className='ketan'>
         <img src="./image/athlete1.jpg" id='ketan'/>
-<<<<<<< HEAD
-=======
-
->>>>>>> 4a6c363cff6f321ca0bafb99f3f60a811853d57b
       </div>
       <div className='ashish'>
     <img src="./image/athlete2.jpg" alt='ashish chauhan' id='ashish'/>
@@ -62,9 +55,8 @@ const Banner = ({title , urlimage}) => {
       </div>
     </div>
     </div>
-<VideoPlayer/>
-
+  <VideoPlayer/>
     </>
-    );
+  )
 };
-export default Banner;
+  export default Banner;
