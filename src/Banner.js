@@ -24,9 +24,9 @@ const Banner = ({title , urlimage}) => {
 
       <div className='cardholder'>
     <Card image={"/image/bag 2.jpg"} title1={"BAGS"} id="card1"/>
-    <Card image={"/image/tennis b.jpg"} title1={"TENNIS BATS"} id="card2"/>
-    <Card image={"/image/PP2.jpg"} title1={"BATTING PADS"} id="card3"/>
-    <Card image={"/image/limited gloves.jpg"} title1={"BAGS"} id="card4"/>
+    <Card image={"/image/tennis b.jpg"} title1={"TENNIS BATS"} id="card1"/>
+    <Card image={"/image/PP2.jpg"} title1={"BATTING PADS"} id="card1"/>
+    <Card image={"/image/limited gloves.jpg"} title1={"BAGS"} id="card1"/>
     </div>
       <h1 id='believe'> ————  BELIEVE IN YOUR SELF  ————</h1>
     <div className="image-main">
