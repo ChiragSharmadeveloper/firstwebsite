@@ -4,6 +4,7 @@ import VideoPlayer from './Video'
 import Footer from './Footer';
 import"./index.css"
 
+
 function App() {
   return (
     <>
@@ -14,7 +15,7 @@ function App() {
       <i class="fa-solid fa-bars"></i>
      </button>
      <ul class="dropdown-content">
-          <li><a href="/">Home</a></li>
+          <li><a href="Page.js/">Home</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="https://www.amazon.in/">Contact Us</a></li>
           <li><a href="https://www.amazon.in/">Support </a></li> 

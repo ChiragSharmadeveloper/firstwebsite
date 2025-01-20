@@ -41,7 +41,7 @@ const Footer = () => {
         <ul>
             <li>Subscribe</li>
             <input type="email" value=" " height="30px" width="25px" placeholder="Enter your email"></input><br/>
-            <i><FaFacebook /></i>
+            <a href='https://www.facebook.com/share/1AJjxYevrE/?mibextid=wwXIfr' target='_blank'><i><FaFacebook /></i></a>
    <i><ImTwitter /></i>
  <a href="https://www.instagram.com/babita_sports?igsh=MTBydXR0NzEzNHhhOQ==" target="_blank"><i ><FaInstagram /></i></a>
   <i><FaLinkedinIn /></i>
