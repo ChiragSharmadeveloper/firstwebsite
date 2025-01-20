@@ -48,6 +48,10 @@ const Footer = () => {
   <a href="https://youtube.com/@babitasports?si=BeoSVuQIT6tjKiiJ" target="_blank"><i><AiOutlineYoutube /></i></a>
         </ul>
       </div>
+      <div className='lastfoot'>
+        <h1 id='lastfoot1'> BABITA BHARDWAJ SPORTS</h1>
+        <i class="fa-solid fa-registered" id='regfoot'> 2019 | Design  Partners  :  Abhay  &  Team</i>
+      </div>
       </footer>
     </>
   )

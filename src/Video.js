@@ -6,17 +6,17 @@ const VideoPlayer = () => {
     <>
     <div className="video-main">
       <div className='video-item'>
-      <video controls muted  width="250px" height="500px">
+      <video muted autoPlay loop >
         <source src="/videos/video1.mp4" type="video/mp4" />
       </video>
       </div>
       <div className='video-item'>
-      <video controls muted width="250px" height="500px">
+      <video  muted autoPlay loop >
         <source src="/videos/video2.mp4" type="video/mp4" />
       </video>
       </div>
       <div className='video-item'>
-      <video controls muted  width="250px" height="500px" >
+      <video  muted autoPlay loop >
         <source src="/videos/video3.mp4" type="video/mp4" />
       </video>
       </div>

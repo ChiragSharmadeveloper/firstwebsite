@@ -1,13 +1,13 @@
-import React from 'react'
+import react from 'react'
+import VideoPlayer from './Video'
 import Card from './Card'
 import './App.css'
 import './Video.css'
-import VideoPlayer from './Video'
 
 const Banner = ({title , urlimage}) => {
   return (
-    <>
-    <div className='banner'>
+      <> 
+      <div className='banner'>
       <div>
         <h1>{title}</h1>
         <p>Welcome to BB Sports, your one-stop shop for all things cricket. As passionate cricket enthusiasts, we understand the importance of quality equipment in enhancing performance on the field. Whether you're a beginner or a seasoned pro, we offer a wide range of cricket products designed to suit players of all levels.
@@ -25,9 +25,9 @@ const Banner = ({title , urlimage}) => {
 
       <div className='cardholder'>
     <Card image={"/image/bag 2.jpg"} title1={"BAGS"} id="card1"/>
-    <Card image={"/image/tennis b.jpg"} title1={"TENNIS BATS"} id="card2"/>
-    <Card image={"/image/PP2.jpg"} title1={"BATTING PADS"} id="card3"/>
-    <Card image={"/image/limited gloves.jpg"} title1={"BAGS"} id="card4"/>
+    <Card image={"/image/tennis b.jpg"} title1={"TENNIS BATS"} id="card1"/>
+    <Card image={"/image/PP2.jpg"} title1={"BATTING PADS"} id="card1"/>
+    <Card image={"/image/limited gloves.jpg"} title1={"BAGS"} id="card1"/>
     </div>
       <h1 id='believe'> ————  BELIEVE IN YOUR SELF  ————</h1>
     <div className="image-main">
@@ -35,30 +35,23 @@ const Banner = ({title , urlimage}) => {
     <div className="image-container"></div>
     <div className="image-container"></div>
     </div>
-    <div>
-      <div className='selfimg'>
-        <h1 >— SELF ——</h1>
-    <Card image={"./image/athlete1.jpg"}  id="card5"/>
-
     <div className='banner2'>
       <div className='self'>
         <h1 > SELF. </h1>
         </div>
         <div className='ketan'>
         <img src="./image/athlete1.jpg" id='ketan'/>
-
       </div>
       <div className='ashish'>
     <img src="./image/athlete2.jpg" alt='ashish chauhan' id='ashish'/>
     </div>
         <div className='believe'>
-      <h1 > BELIEVE. </h1>
+      <h1> BELIEVE. </h1>
       </div>
     </div>
-    </div>
-    
+
     <VideoPlayer />
-   </>
+    </>
     );
 };
 
