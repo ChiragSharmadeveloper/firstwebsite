@@ -12,6 +12,8 @@
 #foto{
     border-radius: 50%;
     box-shadow: 5px grey;
+    position: relative;
+    top: -20px;
     width: 60px;
     height: 60px;
     padding: 10px;

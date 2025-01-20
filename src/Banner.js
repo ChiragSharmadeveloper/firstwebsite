@@ -1,5 +1,4 @@
 import react from 'react'
-import VideoPlayer from './Video'
 import Card from './Card'
 import './App.css'
 import './Video.css'
@@ -49,8 +48,6 @@ const Banner = ({title , urlimage}) => {
       <h1> BELIEVE. </h1>
       </div>
     </div>
-
-    <VideoPlayer />
     </>
     );
 };

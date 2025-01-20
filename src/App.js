@@ -3,7 +3,6 @@ import Banner from './Banner';
 import VideoPlayer from './Video'
 import Footer from './Footer';
 import"./index.css"
-import HomePage from './home/page';
 
 function App() {
   return (
