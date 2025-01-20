@@ -3,6 +3,7 @@ import './Video.css'
 
 const VideoPlayer = () => {
   return (
+    <>
     <div className="video-main">
       <div className='video-item'>
       <video controls muted  width="250px" height="500px">
@@ -20,6 +21,7 @@ const VideoPlayer = () => {
       </video>
       </div>
     </div>
+    </>
   );
 };
 

@@ -56,8 +56,10 @@ const Banner = ({title , urlimage}) => {
       </div>
     </div>
     </div>
-<VideoPlayer/>
-    </>
+    
+    <VideoPlayer />
+   </>
     );
 };
+
 export default Banner;
