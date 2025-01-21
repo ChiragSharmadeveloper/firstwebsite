@@ -13,7 +13,7 @@
 .video-item video{
     border-radius: 3%;
 }
-    .banner2{
+.banner2{
     margin: 100px 80px 100px 80px;
     display: grid;
     grid-template-columns: auto auto;
@@ -21,12 +21,14 @@
     row-gap: 0%;
 }
 .self{
+    color: black;
     margin-bottom: 0%;
     font-size: 60px;
     width: 50%;
     font-family: Arial, Helvetica, sans-serif;
 }
 .believe{
+    color: black;
     font-size: 60px;
     width: 50%;
     font-family: Arial, Helvetica, sans-serif ;
