@@ -11,11 +11,10 @@ const Footer = () => {
     <footer className="foot">
       <div className="fot">
         <ul>
-            <li><a href="#">Company</a></li>
-            <li><a href="#">Home</a></li>
+            <h2>Get info</h2>
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">About us</a></li>
-            <li><a href="#">Get started</a></li>
+            <li><a href="#">Enquiry</a></li>
         </ul>
         <ul>
             <li><a href="#">Services</a></li>
@@ -25,7 +24,7 @@ const Footer = () => {
             <li><a href="#">Payments Policy</a></li>
         </ul>
         <ul>
-            <li><a href="#">Legal & Privacy</a></li>
+            <h2>Legal & Privacy</h2>
             <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">Cookies Policy</a></li>
             <li><a href="#">Website Disclaimer</a></li>
@@ -50,7 +49,8 @@ const Footer = () => {
       </div>
       <div className='lastfoot'>
         <h1 id='lastfoot1'> BABITA BHARDWAJ SPORTS</h1>
-        <i class="fa-solid fa-registered" id='regfoot'> 2019 | Design  Partners  :  Abhay  &  Team</i>
+       <h5> <i class="fa-solid fa-registered" id='regfoot'> 2019 | Design  Partners  :  Abhay  &  Team</i></h5>
+       <p> <i class="fa-solid fa-copyright" id='regfoot'> copyright BABITA BHARDWAJ SPORTS</i></p>
       </div>
       </footer>
     </>
