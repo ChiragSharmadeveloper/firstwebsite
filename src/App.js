@@ -3,6 +3,7 @@ import Banner from './Banner';
 import VideoPlayer from './Video'
 import Footer from './Footer';
 import"./index.css"
+import ProductPage from './products/Product';
 
 
 function App() {
@@ -15,10 +16,10 @@ function App() {
       <i class="fa-solid fa-bars"></i>
      </button>
      <ul class="dropdown-content">
-          <li><a href="Page.js/">Home</a></li>
+          <li><a href="Page.js/ " target="_blank">Home</a></li>
           <li><a href="/about">About</a></li>
-          <li><a href="https://www.amazon.in/">Contact Us</a></li>
-          <li><a href="https://www.amazon.in/">Support </a></li> 
+          <li><a href="./products/Product.js">Contact Us</a></li>
+          <li><a href="https://www.amazon.in/" target="_blank">Products</a></li> 
         </ul> 
         </div>   
       <img src="/image/logo.pdf.jpg" alt='image1' id='foto'></img> 
