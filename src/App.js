@@ -17,9 +17,15 @@ function App() {
       <i class="fa-solid fa-bars"></i>
      </button>
      <ul class="dropdown-content">
+<<<<<<< HEAD
           <li><a href="E:\Mywebsite\firstwebsite\src\home\Home.js " target="_blank">Home</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="./products/Product.js">Contact Us</a></li>
+=======
+          <li><a href="Page.js/ " target="_blank">Home</a></li>
+          <li><a href="/about" target="_blank">About</a></li>
+          <li><a href="./products/Product.js" target="_blank">Contact Us</a></li>
+>>>>>>> 0db854ef5cadec6ae7ac6bba61e5f2f11f907c9e
           <li><a href="https://www.amazon.in/" target="_blank">Products</a></li> 
         </ul> 
         </div>   
