@@ -16,6 +16,9 @@ function App() {
       <i class="fa-solid fa-bars"></i>
      </button>
      <ul class="dropdown-content">
+          <li><a href="HEADE:\Mywebsite\firstwebsite\src\home\Home.js " target="_blank">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="./products/Product.js">Contact Us</a></li>
           <li><a href="Page.js/ " target="_blank">Home</a></li>
           <li><a href="/about" target="_blank">About</a></li>
           <li><a href="./products/Product.js" target="_blank">Contact Us</a></li>
