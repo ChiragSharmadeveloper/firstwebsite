@@ -6,8 +6,9 @@ const VideoPlayer = () => {
     <>
     <div className="video-main">
       <div className='video-item'>
+      <a href="https://www.instagram.com/babita_sports?igsh=MTBydXR0NzEzNHhhOQ==" target="_blank"></a>
       <video muted autoPlay loop >
-        <source src="/videos/video1.mp4" type="video/mp4" />
+        <source src="/videos/video1.mp4" type="video/mp4"  />
       </video>
       </div>
       <div className='video-item'>

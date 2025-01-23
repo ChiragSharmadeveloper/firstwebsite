@@ -1,16 +1,16 @@
 import React from 'react';
-// import { Card, Button } from 'react-bootstrap';
+import { Cards, Button } from 'react-bootstrap';
 
 const ProductCard = ({ product }) => {
   return (
-    <Card className="m-3">
-      <Card.Img variant="top" src={product.image} alt={product.title} />
-      <Card.Body>
-        <Card.Title>{product.title}</Card.Title>
-        <Card.Text>{product.description}</Card.Text>
+    <Cards className="m-3">
+      <Cards.Img variant="top" src={product.image} alt={product.title} />
+      <Cards.Body>
+        <Cards.Title>{product.title}</Cards.Title>
+        <Cards.Text>{product.description}</Cards.Text>
         <Button variant="primary">Buy Now</Button>
-      </Card.Body>
-    </Card>
+      </Cards.Body>
+    </Cards>
   );
 };
 
