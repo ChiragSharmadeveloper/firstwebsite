@@ -33,9 +33,8 @@ const Footer = () => {
         <ul>
         <h2>For Enquiry</h2>
             <li><a href="http://wa.me/919997270808" target='_blank'>+91 9997270808 </a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#">Photography</a></li>
-            <li><a href="#">Photoshop</a></li>
+            <li><a href="http://wa.me/918401003634" target='_blank'>+91 8401003634 </a></li>
+            <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">babitasports5@gmail.com</a></li>
         </ul>
         <ul>
             <li>Subscribe</li>
