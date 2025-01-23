@@ -17,8 +17,8 @@ function App() {
      </button>
      <ul class="dropdown-content">
           <li><a href="Page.js/ " target="_blank">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="./products/Product.js">Contact Us</a></li>
+          <li><a href="/about" target="_blank">About</a></li>
+          <li><a href="./products/Product.js" target="_blank">Contact Us</a></li>
           <li><a href="https://www.amazon.in/" target="_blank">Products</a></li> 
         </ul> 
         </div>   
