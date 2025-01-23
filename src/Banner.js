@@ -1,7 +1,6 @@
 import react from 'react'
 import Card from './Card'
 import './App.css'
-import './Video.css'
 
 const Banner = ({title , urlimage}) => {
   return (

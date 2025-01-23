@@ -24,16 +24,16 @@ const Footer = () => {
             <li><a href="#">Payments Policy</a></li>
         </ul>
         <ul>
-            <h2>Legal & Privacy</h2>
-            <li><a href="#">Privacy Policy</a></li>
+        <h2>Legal & Privacy</h2>
+        <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">Cookies Policy</a></li>
             <li><a href="#">Website Disclaimer</a></li>
             <li><a href="#">Terms and Conditions</a></li>
         </ul>
         <ul>
-            <li><a href="#">Courses</a></li>
-            <li><a href="#">HTML & CSS</a></li>
-            <li><a href="#">Javascript</a></li>
+        <h2>For Enquiry</h2>
+            <li><a href="#">+91 9997270808</a></li>
+            <li><a href="#"></a></li>
             <li><a href="#">Photography</a></li>
             <li><a href="#">Photoshop</a></li>
         </ul>
