@@ -32,7 +32,7 @@ const Footer = () => {
         </ul>
         <ul>
         <h2>For Enquiry</h2>
-            <li><a href="#">+91 9997270808</a></li>
+            <li><a href="http://wa.me/919997270808" target='_blank'>+91 9997270808 </a></li>
             <li><a href="#"></a></li>
             <li><a href="#">Photography</a></li>
             <li><a href="#">Photoshop</a></li>
