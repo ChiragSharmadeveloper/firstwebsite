@@ -1,7 +1,7 @@
 import React from 'react';
 // import { Cards, Button } from 'react-bootstrap';
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product , Cards , Button }) => {
   return (
     <Cards className="m-3">
       <Cards.Img variant="top" src={product.image} alt={product.title} />

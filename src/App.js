@@ -1,10 +1,11 @@
-import React from 'react' 
+import React from 'react';
+import {BrowserRouter, Route, Routes } from 'react-router-dom';
+import About from './about/About';
+import HomePage from './home/Home';
 import Banner from './Banner';
-import VideoPlayer from './Video'
+import VideoPlayer from './Video';
 import Footer from './Footer';
-import"./index.css"
-import ProductPage from './products/Product';
-
+import"./index.css";
 
 function App() {
   return (
@@ -12,18 +13,18 @@ function App() {
      <div className="App">
       <header className="App-header">
         <div className="dropdown">
-     <button className="dropbtn" > 
-      <i class="fa-solid fa-bars"></i>
-     </button>
-     <ul class="dropdown-content">
-          <li><a href="Page.js/ " target="_blank">Home</a></li>
-          <li><a href="/about" target="_blank">About</a></li>
-          <li><a href="./products/Product.js" >Contact Us</a></li>
-          <li><a href="https://www.amazon.in/" target="_blank">Products</a></li> 
-        </ul> 
+        <h1>BBS</h1>
+          <BrowserRouter>
+          <Routes>
+            
+          <Route path="/" element={<home/>}/>
+          <Route path="About" element={<About/>}/>
+          <Route path="homePage" element={<HomePage/>}/>
+          </Routes>
+      </BrowserRouter>
         </div>   
       <img src="/image/logo.pdf.jpg" alt='image1' id='foto'></img> 
-       <h1>BBS</h1>
+       
       <a href='#'><i class="fa-solid fa-user" id='login'></i></a>
       </header>
       
