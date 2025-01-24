@@ -5,6 +5,7 @@ import HomePage from './home/Home';
 import Banner from './Banner';
 import VideoPlayer from './Video';
 import Footer from './Footer';
+import LogIn from './Login';
 import"./index.css";
 
 function App() {
@@ -16,16 +17,14 @@ function App() {
         <h1>BBS</h1>
           <BrowserRouter>
           <Routes>
-            
-          <Route path="/" element={<home/>}/>
-          <Route path="About" element={<About/>}/>
-          <Route path="homePage" element={<HomePage/>}/>
+          <Route path="/" element={<home/>}/>home
+          <Route path="About" element={<About/>}/>About
+          <Route path="homePage" element={<HomePage/>}/>Products
           </Routes>
       </BrowserRouter>
         </div>   
       <img src="/image/logo.pdf.jpg" alt='image1' id='foto'></img> 
-       
-      <a href='#'><i class="fa-solid fa-user" id='login'></i></a>
+      <i class="fa-solid fa-user" id='login'></i>
       </header>
       
     <Banner title={"BB Sports: Your Ultimate Destination for Cricket Gear "} urlimage={"/image/logo.pdf.jpg"}/> 
