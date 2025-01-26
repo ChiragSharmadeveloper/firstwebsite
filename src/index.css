@@ -5,9 +5,26 @@
 .App-header{
     display:flex;
     margin-left: 0%;
-    justify-content: space-between;
+    justify-content:space-between;
+    padding:0px 90px;
     background-color: black;
 
+}
+.header2{
+  color:black;
+}
+.header2 ul{
+  display:flex;
+  text-align: center;
+  justify-content: space-evenly;
+  padding:0px 190px;
+}
+.header2 ul li{
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
 }
 #foto{
     border-radius: 50%;
