@@ -10,7 +10,8 @@
     background-color: black;
 }
 .header2{
-  color:black;
+  color:white;
+  background-color: #808080;
 }
 .header2 ul{
   display:flex;

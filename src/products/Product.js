@@ -1,18 +1,17 @@
 import React from 'react';
-// import { Cards, Button } from 'react-bootstrap';
 
-const ProductCard = ({ product , Cards , Button }) => {
-  return (
-    <Cards className="m-3">
-      <Cards.Img variant="top" src={product.image} alt={product.title} />
-      <Cards.Body>
-        <Cards.Title>{product.title}</Cards.Title>
-        <Cards.Text>{product.description}</Cards.Text>
-        <Button variant="primary">Buy Now</Button>
-      </Cards.Body>
-    </Cards>
-  );
-};
+// const ProductCard = ({ product , Cards , Button }) => {
+//   return (
+//     <Cards className="m-3">
+//       <Cards.Img variant="top" src={product.image} alt={product.title} />
+//       <Cards.Body>
+//         <Cards.Title>{product.title}</Cards.Title>
+//         <Cards.Text>{product.description}</Cards.Text>
+//         <Button variant="primary">Buy Now</Button>
+//       </Cards.Body>
+//     </Cards>
+//   );
+// };
 
 const ProductPage = () => {
   const products = [
@@ -42,7 +41,7 @@ const ProductPage = () => {
       <div className="row">
         {products.map((product) => (
           <div key={product.id} className="col-md-4">
-            <ProductCard product={product} />
+            {/* <ProductCard product={product} /> */}
           </div>
         ))}
       </div>
