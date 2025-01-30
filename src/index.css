@@ -1,13 +1,15 @@
 .App{
     color: white;
-    margin-top: 0%;
 }
 .App-header{
     display:flex;
-    margin-left: 0%;
     justify-content:space-between;
     padding:0px 90px;
     background-color: black;
+}
+#bbs{
+ text-decoration: none;
+ color: white;
 }
 .header2{
   color:white;
