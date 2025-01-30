@@ -34,13 +34,6 @@ function App() {
         </div>
         </Router>
         </div>
-<<<<<<< HEAD
-    <Banner title={"BB Sports: Your Ultimate Destination for Cricket Gear "} urlimage={"/image/logo.pdf.jpg"}/> 
-  <VideoPlayer/>
-<Footer/>
-=======
-        
->>>>>>> 3574856c98ceb51c5709e2c4f8e41e51896d0d7f
     </>
   );
 }
