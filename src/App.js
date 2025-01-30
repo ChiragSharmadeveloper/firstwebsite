@@ -6,7 +6,6 @@ import ProductPage from './products/Product';
 import Banner from './Banner';
 import VideoPlayer from './Video';
 import Footer from './Footer';
-import LogIn from './Login';
 import"./index.css";
 
 function App() {
