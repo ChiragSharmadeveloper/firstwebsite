@@ -6,7 +6,6 @@ import ProductPage from './products/Product';
 import Banner from './Banner';
 import VideoPlayer from './Video';
 import Footer from './Footer';
-// import LogIn from './Login';
 import"./index.css";
 
 function App() {
@@ -20,6 +19,7 @@ function App() {
       </header>
       <Router>
       <div className="header2">
+          
           <ul>
           <li><Link to="/home">Home</Link></li>
             <li><Link to="/about">About</Link></li>
@@ -31,9 +31,17 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<ProductPage />} />
         </Routes>
+
         </div>
+
         </Router>
+        
         </div>
+
+    <Banner title={"BB Sports: Your Ultimate Destination for Cricket Gear "} urlimage={"/image/logo.pdf.jpg"}/> 
+  <VideoPlayer/>
+<Footer/>
+
     </>
   );
 }

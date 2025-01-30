@@ -5,6 +5,7 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineYoutube } from "react-icons/ai";
 import './App.css'
+
 const Footer = () => {
   return (
     <>
@@ -37,7 +38,7 @@ const Footer = () => {
             <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">babitasports5@gmail.com</a></li>
         </ul>
         <ul>
-            <h3>Subscribe</h3>
+            <h1>Subscribe</h1>
             <form action="/submit" method="post">
             <input id='email' type="email" value=" " placeholder="Enter your email"></input><br/>
             <button type="submit" id='submit'>Submit</button>
