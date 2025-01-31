@@ -1,4 +1,5 @@
 import React from 'react';
+import './Product.css'
 
 // const ProductCard = ({ product , Cards , Button }) => {
 //   return (
@@ -13,7 +14,7 @@ import React from 'react';
 //   );
 // };
 
-const ProductPage = () => {
+const ProductPage = ({image2,title2,content1}) => {
   const products = [
     {
       id: 1,
@@ -36,16 +37,74 @@ const ProductPage = () => {
   ];
 
   return (
-    <div className="container mt-5">
-      <h2 className="text-center mb-4">Our Products</h2>
-      <div className="row">
-        {products.map((product) => (
-          <div key={product.id} className="col-md-4">
-            {/* <ProductCard product={product} /> */}
-          </div>
-        ))}
-      </div>
+    <>
+    <div classname="card1">
+    <div class="card-body" >
+    <img src="./image/limited gloves.jpg" class="card-img-top" alt="..." width={190} height={170} />
+    <div class="card-body">
+      <h2 class="card-title">Gloves </h2>
+      <p class="card-text">₹540</p>
+     <button> <a href="#" class="btn btn-primary">Buy Now</a></button>
     </div>
+    </div>
+
+    <div class="card-body" >
+    <img src="./image/limited gloves.jpg" class="card-img-top" alt="..." width={190} height={170} />
+    <div class="card-body">
+      <h2 class="card-title">English Willow Bats</h2>
+      <p class="card-text">₹5400</p>
+     <button> <a href="#" class="btn btn-primary">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div class="card-body" >
+    <img src="./image/limited gloves.jpg" class="card-img-top" alt="..." width={190} height={170} />
+    <div class="card-body">
+      <h2 class="card-title">English Willow Bats</h2>
+      <p class="card-text">₹5400</p>
+     <button> <a href="#" class="btn btn-primary">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div class="card-body" >
+    <img src="./image/limited gloves.jpg" class="card-img-top" alt="..." width={190} height={170} />
+    <div class="card-body">
+      <h2 class="card-title">English Willow Bats</h2>
+      <p class="card-text">₹5400</p>
+     <button> <a href="#" class="btn btn-primary">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div class="card-body" >
+    <img src="./image/limited gloves.jpg" class="card-img-top" alt="..." width={190} height={170} />
+    <div class="card-body">
+      <h2 class="card-title">English Willow Bats</h2>
+      <p class="card-text">₹5400</p>
+     <button> <a href="#" class="btn btn-primary">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div class="card-body" >
+    <img src="./image/limited gloves.jpg" class="card-img-top" alt="..." width={190} height={170} />
+    <div class="card-body">
+      <h2 class="card-title">English Willow Bats</h2>
+      <p class="card-text">₹5400</p>
+     <button> <a href="#" class="btn btn-primary">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div class="card-body" >
+    <img src="./image/limited gloves.jpg" class="card-img-top" alt="..." width={190} height={170} />
+    <div class="card-body">
+      <h2 class="card-title">English Willow Bats</h2>
+      <p class="card-text">₹5400</p>
+     <button> <a href="#" class="btn btn-primary">Buy Now</a></button>
+    </div>
+    </div>
+    </div>
+
+
+    </>
   );
 };
 

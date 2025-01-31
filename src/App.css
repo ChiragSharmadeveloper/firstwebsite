@@ -131,3 +131,8 @@ button:hover {
   font-size: x-small;
   column-gap: 30%;
 }
+ /* Product page card style */
+.card1{
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+} 
