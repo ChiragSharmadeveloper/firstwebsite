@@ -19,26 +19,26 @@ const ProductPage = ({image2,title2,content1}) => {
     {
       id: 1,
       title: 'Premium Cricket Bat',
-      image: 'https://via.placeholder.com/150', // Replace with real image URLs
+      image: 'E:\Mywebsite\firstwebsite\public\image\bat 4.jpg', // Replace with real image URLs
       description: 'A premium cricket bat made of top-grade English Willow for superior performance.',
     },
     {
       id: 2,
       title: 'Cricket Ball',
-      image: 'https://via.placeholder.com/150', // Replace with real image URLs
+      image: 'E:\Mywebsite\firstwebsite\public\image\bat 4.jpg', // Replace with real image URLs
       description: 'A high-quality cricket ball designed for durability and performance.',
     },
     {
       id: 3,
       title: 'Cricket Kit Bag',
-      image: 'https://via.placeholder.com/150', // Replace with real image URLs
+      image: 'E:\Mywebsite\firstwebsite\public\image\bat 4.jpg', // Replace with real image URLs
       description: 'A spacious and durable kit bag to store all your cricket gear.',
     },
   ];
 
   return (
     <>
-    <div classname="card1">
+    <div classname="card10">
     <div class="card-body" >
     <img src="./image/limited gloves.jpg" class="card-img-top" alt="..." width={190} height={170} />
     <div class="card-body">

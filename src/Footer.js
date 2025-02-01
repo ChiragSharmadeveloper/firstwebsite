@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="fot">
         <ul>
             <h2>Get info</h2>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="mailto:babitasports5@gmail.com">Contact Us</a></li>
             <li><a href="#">About us</a></li>
             <li><a href="#">Enquiry</a></li>
         </ul>
@@ -35,7 +35,7 @@ const Footer = () => {
         <h2>For Enquiry</h2>
             <li><a href="http://wa.me/919997270808" target='_blank'>+91 9997270808 </a></li>
             <li><a href="http://wa.me/918401003634" target='_blank'>+91 8401003634 </a></li>
-            <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">babitasports5@gmail.com</a></li>
+            <li><a href="mailto:babitasports5@gmail.com">babitasports5@gmail.com</a></li>
         </ul>
         <ul>
             <h1>Subscribe</h1>
@@ -43,7 +43,7 @@ const Footer = () => {
             <input id='email' type="email" value=" " placeholder="Enter your email"></input><br/>
             <button type="submit" id='submit'>Submit</button>
             </form>
-            <div>
+            <div display="flex">
             <a href='https://www.facebook.com/share/1AJjxYevrE/?mibextid=wwXIfr' target="_blank"><i><FaFacebook /></i></a>
              <i><ImTwitter /></i>
             <a href="https://www.instagram.com/babita_sports?igsh=MTBydXR0NzEzNHhhOQ==" target="_blank"><i ><FaInstagram /></i></a>
