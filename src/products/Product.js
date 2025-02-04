@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Product.css'
 
 // const ProductCard = ({ product , Cards , Button }) => {
@@ -8,7 +9,7 @@ import './Product.css'
 //       <Cards.Body>
 //         <Cards.Title>{product.title}</Cards.Title>
 //         <Cards.Text>{product.description}</Cards.Text>
-//         <Button variant="primary">Buy Now</Button>
+//         <Button vari">Buy Now</Button>
 //       </Cards.Body>
 //     </Cards>
 //   );
@@ -38,69 +39,180 @@ const ProductPage = ({image2,title2,content1}) => {
 
   return (
     <>
-    <div classname="card10">
-    <div class="card-body" >
-    <img src="./image/limited gloves.jpg" class="card-img-top" alt="..." width={190} height={170} />
-    <div class="card-body">
-      <h2 class="card-title">Gloves </h2>
-      <p class="card-text">₹540</p>
-     <button> <a href="#" class="btn btn-primary">Buy Now</a></button>
+    <div className="card10">
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={290} height={270} />
+    <div className="">
+      <h1 className="card-title">Gloves </h1>
+      <p className="card-text">₹540</p>
+     <button type="button" className="btn btn-success"><a href="#" >Buy Now</a></button>
     </div>
     </div>
 
-    <div class="card-body" >
-    <img src="./image/limited gloves.jpg" class="card-img-top" alt="..." width={190} height={170} />
-    <div class="card-body">
-      <h2 class="card-title">English Willow Bats</h2>
-      <p class="card-text">₹5400</p>
-     <button> <a href="#" class="btn btn-primary">Buy Now</a></button>
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
     </div>
     </div>
 
-    <div class="card-body" >
-    <img src="./image/limited gloves.jpg" class="card-img-top" alt="..." width={190} height={170} />
-    <div class="card-body">
-      <h2 class="card-title">English Willow Bats</h2>
-      <p class="card-text">₹5400</p>
-     <button> <a href="#" class="btn btn-primary">Buy Now</a></button>
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
     </div>
     </div>
 
-    <div class="card-body" >
-    <img src="./image/limited gloves.jpg" class="card-img-top" alt="..." width={190} height={170} />
-    <div class="card-body">
-      <h2 class="card-title">English Willow Bats</h2>
-      <p class="card-text">₹5400</p>
-     <button> <a href="#" class="btn btn-primary">Buy Now</a></button>
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
     </div>
     </div>
 
-    <div class="card-body" >
-    <img src="./image/limited gloves.jpg" class="card-img-top" alt="..." width={190} height={170} />
-    <div class="card-body">
-      <h2 class="card-title">English Willow Bats</h2>
-      <p class="card-text">₹5400</p>
-     <button> <a href="#" class="btn btn-primary">Buy Now</a></button>
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
     </div>
     </div>
 
-    <div class="card-body" >
-    <img src="./image/limited gloves.jpg" class="card-img-top" alt="..." width={190} height={170} />
-    <div class="card-body">
-      <h2 class="card-title">English Willow Bats</h2>
-      <p class="card-text">₹5400</p>
-     <button> <a href="#" class="btn btn-primary">Buy Now</a></button>
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
     </div>
     </div>
 
-    <div class="card-body" >
-    <img src="./image/limited gloves.jpg" class="card-img-top" alt="..." width={190} height={170} />
-    <div class="card-body">
-      <h2 class="card-title">English Willow Bats</h2>
-      <p class="card-text">₹5400</p>
-     <button> <a href="#" class="btn btn-primary">Buy Now</a></button>
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
     </div>
     </div>
+
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
+    </div>
+    </div>
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
+    </div>
+    </div>
+
+
+    </div>
+
+    <div className="container mt-5">
+      <button className="btn btn-primary">Primary Button</button>
+      <button className="btn btn-secondary">Secondary Button</button>
+      <button className="btn btn-success">Success Button</button>
+      <button className="btn btn-danger">Danger Button</button>
+      <button className="btn btn-warning">Warning Button</button>
+      <button className="btn btn-info">Info Button</button>
+      <button className="btn btn-light">Light Button</button>
+      <button className="btn btn-dark">Dark Button</button>
     </div>
 
 
