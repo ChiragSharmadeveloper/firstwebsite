@@ -19,7 +19,7 @@ const Footer = () => {
         </ul>
         <ul>
               <h2>BB SPORTS SPACE</h2>
-            <li><a href="">UTTAR PARDESH , MEERUT</a></li>
+            <li><a href="https://g.co/kgs/ihp9MQV" target="_blank">UTTAR PARDESH , MEERUT</a></li>
             <li><a href="#">GUJRAT , BHAVNAGAR</a></li>
             <li><a href="#">NEW DELHI , CHIRAG DELHI</a></li>
             <li><a href="#">COMING SOON....</a></li>
