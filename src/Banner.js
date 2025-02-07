@@ -44,11 +44,7 @@ const Banner = ({title , urlimage}) => {
       <div className='ashish'>
     <img src="./image/athlete2.jpg" alt='ashish chauhan' id='ashish'/>
     </div>
-<<<<<<< HEAD
         <div className="believe2">
-=======
-        <div className="believe2 " >
->>>>>>> 893db773e602af06547079485d3b6a49ed7a186c
       <h1> BELIEVE. </h1>
       </div>
     </div>
