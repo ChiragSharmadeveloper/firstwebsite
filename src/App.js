@@ -36,11 +36,12 @@ function App() {
 
         </Router>
         
-        </div>
 
     <Banner title={"BB Sports: Your Ultimate Destination for Cricket Gear "} urlimage={"/image/logo.pdf.jpg"}/> 
   <VideoPlayer/>
 <Footer/>
+</div>
+
 
     </>
   );
