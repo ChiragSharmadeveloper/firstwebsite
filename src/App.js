@@ -23,13 +23,8 @@ function App() {
             {/* <li><Link href="/about">About</Link></li>
             <li><Link href="/products">Products</Link></li> */}
           </ul>
-<<<<<<< HEAD
           </div>
-=======
 </div>
->>>>>>> 5b0e94c8fe32680276ba0d72c471d97140fc9c80
-        
-
     <Banner title={"BB Sports: Your Ultimate Destination for Cricket Gear "} urlimage={"/image/transperent logo.png"}/> 
   <VideoPlayer/>
 <Footer/>
