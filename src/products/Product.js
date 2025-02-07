@@ -201,21 +201,7 @@ const ProductPage = ({image2,title2,content1}) => {
     </div>
     </div>
 
-
     </div>
-
-    <div className="container mt-5">
-      <button className="btn btn-primary">Primary Button</button>
-      <button className="btn btn-secondary">Secondary Button</button>
-      <button className="btn btn-success">Success Button</button>
-      <button className="btn btn-danger">Danger Button</button>
-      <button className="btn btn-warning">Warning Button</button>
-      <button className="btn btn-info">Info Button</button>
-      <button className="btn btn-light">Light Button</button>
-      <button className="btn btn-dark">Dark Button</button>
-    </div>
-
-
     </>
   );
 };
