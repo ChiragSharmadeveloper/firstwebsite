@@ -39,10 +39,20 @@ const Footer = () => {
         </ul>
         <ul>
             <h1>Subscribe</h1>
-            <form action="/submit" method="post">
-            <input id='email' type="email" value=" " placeholder="Enter your email"></input><br/>
-            <button type="submit" id='submit'>Submit</button>
-            </form>
+            
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="7a907100-0d09-41a8-adc5-f7b1de221320"></input>
+
+    <input type="text" name="name" required placeholder="Enter Your Name : "></input>
+    <input type="email" name="email" required placeholder="Enter Your E-mail : "></input>
+    <textarea name="message" required placeholder="Enter Your Comment : "></textarea>
+
+     <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"></input>
+     
+    <button type="submit">Submit Form</button>
+
+</form>
             <div display="flex">
             <a href='https://www.facebook.com/share/1AJjxYevrE/?mibextid=wwXIfr' target="_blank"><i><FaFacebook /></i></a>
              <i><ImTwitter /></i>
