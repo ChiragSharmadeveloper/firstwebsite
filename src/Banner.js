@@ -43,7 +43,7 @@ const Banner = ({title , urlimage}) => {
       <div className='ashish'>
     <img src="./image/athlete2.jpg" alt='ashish chauhan' id='ashish'/>
     </div>
-        <div className='believe2'>
+        <div className='believe2 '>
       <h1> BELIEVE. </h1>
       </div>
     </div>

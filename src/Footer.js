@@ -4,7 +4,7 @@ import { ImTwitter } from "react-icons/im";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineYoutube } from "react-icons/ai";
-import './App.css'
+import "./Footer.css"
 
 const Footer = () => {
   return (
