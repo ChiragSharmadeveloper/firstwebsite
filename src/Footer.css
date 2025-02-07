@@ -1,0 +1,74 @@
+
+              /* This is footer css */ 
+.fot ul{
+    list-style-type:none;
+  }
+  .fot{
+    height: auto;
+    width: 100%;
+    gap: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:grid ;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    background-color:#555555;
+    color:white;
+    margin:auto;
+  }
+  .fot ul li{
+    margin:10px;
+    font-size: small;
+    font-weight: bold;
+  }
+  .fot ul li a{
+    text-decoration: none;
+    color:white;
+  }
+  .foot{
+    width:100%;
+    background-color: black;
+    gap:70px;
+  }
+  .lastfoot{
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+  input[type='email']{
+    height: 50px;
+    width: 380px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  input[type='email']:hover{
+    height: 50px;
+    width: 380px;
+    border-color: red;
+  }
+  button{
+    color: white;
+    background: red;
+    width: 135px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #0056b3;
+    width: 130px;
+  }
+  
+                  /* 2nd footer*/
+  #lastfoot1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 85px;
+    text-shadow: 0px 0px 5px rgb(131, 130, 130);
+    color: white;
+    -webkit-text-stroke: 2px rgb(114, 112, 112);
+  
+  }
+  .fa-solid{
+    color: rgb(243, 247, 245);
+    font-size: x-small;
+    column-gap: 30%;
+  }
