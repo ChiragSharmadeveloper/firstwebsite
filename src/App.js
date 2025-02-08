@@ -25,11 +25,11 @@ function App() {
           </div>
           
 
-    <Banner title={"BB Sports: Your Ultimate Destination for Cricket Gear "} urlimage={"/image/transperent logo.png"}/> 
+   
+</div>
+<Banner title={"BB Sports: Your Ultimate Destination for Cricket Gear "} urlimage={"/image/transperent logo.png"}/> 
   <VideoPlayer/>
 <Footer/>
-</div>
-
     </>
   );
 }

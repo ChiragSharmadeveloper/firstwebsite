@@ -27,10 +27,10 @@ const Banner = ({title , urlimage}) => {
     <Card image={"/image/tennis b.jpg"} title1={"TENNIS BATS"} id="card1"/>
     <Card image={"/image/PP2.jpg"} title1={"BATTING PADS"} id="card1"/>
     <Card image={"/image/limited gloves.jpg"} title1={"GLOVES"} id="card1"/>
-    <Card image={"/image/bag 2.jpg"} title1={"BAGS"} id="card1"/>
-    <Card image={"/image/tennis b.jpg"} title1={"TENNIS BATS"} id="card1"/>
-    <Card image={"/image/PP2.jpg"} title1={"BATTING PADS"} id="card1"/>
-    <Card image={"/image/limited gloves.jpg"} title1={"BAGS"} id="card1"/>
+    <Card image={"/image/KASHMIRI BAT.jpg"} title1={"KASHMIRI WILLOW"} id="card1"/>
+    <Card image={"/image/english bat.jpg"} title1={"ENGLISH WILLOW"} id="card1"/>
+    <Card image={"/image/full kit.jpg"} title1={"FULL KIT"} id="card1"/>
+    <Card image={"/image/limited gloves.jpg"} title1={"BALLS"} id="card1"/>
     </div>
       <h1 id='believe'> ————  BELIEVE IN YOUR SELF  ————</h1>
     <div className="image-main">
