@@ -25,6 +25,7 @@
   grid-template-columns: auto auto auto auto;
   justify-content: space-evenly;
   text-align: center;
+  color: black;
 }
 .image-main{
   margin-top: 60px;

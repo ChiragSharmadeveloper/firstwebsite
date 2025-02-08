@@ -44,21 +44,20 @@ const Footer = () => {
 
     <input type="hidden" name="access_key" value="7a907100-0d09-41a8-adc5-f7b1de221320"></input>
 
-    <input type="text" name="name" required placeholder="Enter Your Name : "></input>
-    <input type="email" name="email" required placeholder="Enter Your E-mail : "></input>
-    <textarea name="message" required placeholder="Enter Your Comment : "></textarea>
+    <input type="text" name="name" required placeholder="Enter Your Name : "></input> <br></br>
+    <input type="email" name="email" required placeholder="Enter Your E-mail : "></input><br></br>
+    <textarea type="message" required placeholder="Enter Your Comment : "></textarea><br></br>
 
      <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"></input>
      
     <button type="submit">Submit Form</button>
-
 </form>
-            <div display="flex">
-            <a href='https://www.facebook.com/share/1AJjxYevrE/?mibextid=wwXIfr' target="_blank"><i><FaFacebook /></i></a>
-             <i><ImTwitter /></i>
-            <a href="https://www.instagram.com/babita_sports?igsh=MTBydXR0NzEzNHhhOQ==" target="_blank"><i ><FaInstagram /></i></a>
-            <i><FaLinkedinIn /></i>
-            <a href="https://youtube.com/@babitasports?si=BeoSVuQIT6tjKiiJ" target="_blank"><i><AiOutlineYoutube /></i></a>
+            <div >
+            <a href='https://www.facebook.com/share/1AJjxYevrE/?mibextid=wwXIfr' target="_blank" className=" my-icon"><i><FaFacebook /></i></a>
+             <i className=" my-icon"><ImTwitter /></i>
+            <a href="https://www.instagram.com/babita_sports?igsh=MTBydXR0NzEzNHhhOQ==" target="_blank" className=" my-icon"><i ><FaInstagram /></i></a>
+            <i className=" my-icon"><FaLinkedinIn /></i>
+            <a href="https://youtube.com/@babitasports?si=BeoSVuQIT6tjKiiJ" target="_blank" className=" my-icon"><i><AiOutlineYoutube /></i></a>
         </div>
         </ul>
         </div>

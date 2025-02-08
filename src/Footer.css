@@ -34,14 +34,36 @@
     height: auto;
     text-align: center;
   }
+  input[type='text']{
+    height: 20px;
+    width: 180px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  input[type='text']:hover{
+    height: 20px;
+    width: 180px;
+    border-color: red;
+  }
   input[type='email']{
-    height: 50px;
-    width: 380px;
-    border-radius: 10px;
+    height: 20px;
+    width: 180px;
+    border-radius: 5px;
     text-align: center;
   }
   input[type='email']:hover{
-    height: 50px;
+    height: 20px;
+    width: 180px;
+    border-color: red;
+  }
+  textarea[type='message']{
+    height: 60px;
+    width: 380px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  textarea[type='message']:hover{
+    height: 60px;
     width: 380px;
     border-color: red;
   }
@@ -57,7 +79,19 @@
     background-color: #0056b3;
     width: 130px;
   }
+  .my-icon {
+    font-size: 44px;
+    color: black;
+    display: flex;
+    justify-content: right;  /* Centers horizontally */
+    align-items: right; 
+    position:relative;
+    transition: color 0.3s;
+  }
   
+  .my-icon:hover {
+    color: white;
+  }
                   /* 2nd footer*/
   #lastfoot1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
