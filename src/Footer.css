@@ -80,13 +80,14 @@
     width: 130px;
   }
   .my-icon {
-    font-size: 44px;
+    font-size: 34px;
     color: black;
     display: flex;
     justify-content: right;  /* Centers horizontally */
     align-items: right; 
     position:relative;
     transition: color 0.3s;
+    text-decoration: none;
   }
   
   .my-icon:hover {
