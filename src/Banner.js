@@ -26,6 +26,10 @@ const Banner = ({title , urlimage}) => {
     <Card image={"/image/bag 2.jpg"} title1={"BAGS"} id="card1"/>
     <Card image={"/image/tennis b.jpg"} title1={"TENNIS BATS"} id="card1"/>
     <Card image={"/image/PP2.jpg"} title1={"BATTING PADS"} id="card1"/>
+    <Card image={"/image/limited gloves.jpg"} title1={"GLOVES"} id="card1"/>
+    <Card image={"/image/bag 2.jpg"} title1={"BAGS"} id="card1"/>
+    <Card image={"/image/tennis b.jpg"} title1={"TENNIS BATS"} id="card1"/>
+    <Card image={"/image/PP2.jpg"} title1={"BATTING PADS"} id="card1"/>
     <Card image={"/image/limited gloves.jpg"} title1={"BAGS"} id="card1"/>
     </div>
       <h1 id='believe'> ————  BELIEVE IN YOUR SELF  ————</h1>
@@ -36,7 +40,7 @@ const Banner = ({title , urlimage}) => {
     </div>
     <div className='banner2'>
       <div className="self">
-        <h1 > SELF. </h1>
+        <h1 > SELF </h1>
         </div>
         <div className='ketan'>
         <img src="./image/athlete1.jpg" id='ketan'/>
@@ -45,7 +49,7 @@ const Banner = ({title , urlimage}) => {
     <img src="./image/athlete2.jpg" alt='ashish chauhan' id='ashish'/>
     </div>
         <div className="believe2">
-      <h1> BELIEVE. </h1>
+      <h1> BELIEVE </h1>
       </div>
     </div>
     </>

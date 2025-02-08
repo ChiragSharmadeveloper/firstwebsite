@@ -23,7 +23,13 @@
   .fot ul li a{
     text-decoration: none;
     color:white;
+    transition: color 0.3s;
   }
+  .fot ul li a:hover{
+    color: red;
+    text-decoration: dashed;
+  }
+
   .foot{
     width:100%;
     background-color: black;
@@ -81,7 +87,7 @@
   }
   .my-icon {
     font-size: 34px;
-    color: black;
+    color: white;
     display: flex;
     justify-content: right;  /* Centers horizontally */
     align-items: right; 
@@ -91,7 +97,7 @@
   }
   
   .my-icon:hover {
-    color: white;
+    color: red;
   }
                   /* 2nd footer*/
   #lastfoot1{
