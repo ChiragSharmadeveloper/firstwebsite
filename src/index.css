@@ -28,6 +28,11 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: larger;
 }
+.header2 ul li a{
+  list-style-type: none;
+  text-decoration: none;
+  color:black; 
+}
 #foto{
     border-radius: 50%;
     box-shadow: 5px grey;

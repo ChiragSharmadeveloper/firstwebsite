@@ -1,8 +1,8 @@
 import React from 'react'
-import { FaFacebook } from "react-icons/fa";  
-import { ImTwitter } from "react-icons/im";
+import { FaFacebook } from "react-icons/fa";
+// import { ImTwitter } from "react-icons/im";
 import { FaInstagram } from "react-icons/fa6";
-import { FaLinkedinIn } from "react-icons/fa";
+// import { FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineYoutube } from "react-icons/ai";
 import "./Footer.css"
 
@@ -20,9 +20,9 @@ const Footer = () => {
         <ul>
               <h2>BB SPORTS SPACE</h2>
             <li><a href="https://g.co/kgs/ihp9MQV" target="_blank">UTTAR PARDESH , MEERUT</a></li>
-            <li><a href="#">GUJRAT , BHAVNAGAR</a></li>
-            <li><a href="#">NEW DELHI , CHIRAG DELHI</a></li>
-            <li><a href="#">COMING SOON....</a></li>
+            <li><a href="https://g.co/kgs/ihp9MQV" target="_blank">GUJRAT , BHAVNAGAR</a></li>
+            <li><a href="https://g.co/kgs/ihp9MQV" target="_blank">NEW DELHI , CHIRAG DELHI</a></li>
+            <li><a href="https://g.co/kgs/ihp9MQV" target="_blank">COMING SOON....</a></li>
         </ul>
         <ul>
         <h2>Legal & Privacy</h2>
@@ -44,9 +44,9 @@ const Footer = () => {
 
     <input type="hidden" name="access_key" value="7a907100-0d09-41a8-adc5-f7b1de221320"></input>
 
-    <input type="text" name="name" required placeholder="Enter Your Name : "></input> <br></br>
-    <input type="email" name="email" required placeholder="Enter Your E-mail : "></input><br></br>
-    <textarea type="message" required placeholder="Enter Your Comment : "></textarea><br></br>
+    <input type="text" name="name" id="i2" required placeholder="Enter Your Name : "></input> <br></br><br></br>
+    <input type="email" name="email" id="i2" required placeholder="Enter Your E-mail : "></input><br></br><br></br>
+    <textarea type="message" required placeholder="Enter Your Comment : "></textarea><br></br><br></br>
 
      <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"></input>
      
@@ -56,9 +56,9 @@ const Footer = () => {
             <ul>
             <div >
             <a href='https://www.facebook.com/share/1AJjxYevrE/?mibextid=wwXIfr' target="_blank" className=" my-icon"><i><FaFacebook /> FACEBOOK</i></a>
-             <i className=" my-icon"><ImTwitter /> TWITTER</i>
+             {/* <i className=" my-icon"><ImTwitter /> TWITTER</i> */}
             <a href="https://www.instagram.com/babita_sports?igsh=MTBydXR0NzEzNHhhOQ==" target="_blank" className=" my-icon"><i ><FaInstagram /> INSTAGRAM</i></a>
-            <i className=" my-icon"><FaLinkedinIn /> LINKDIN</i>
+            {/* <i className=" my-icon"><FaLinkedinIn /> LINKDIN</i> */}
             <a href="https://youtube.com/@babitasports?si=BeoSVuQIT6tjKiiJ" target="_blank" className=" my-icon"><i><AiOutlineYoutube /> YOUTUBE</i></a>
         </div>
         </ul>

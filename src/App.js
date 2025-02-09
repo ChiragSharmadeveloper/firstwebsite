@@ -5,7 +5,6 @@ import VideoPlayer from './Video';
 import Footer from './Footer';
 import"./index.css";
 // import Link from 'next/link';
-import { Link } from 'react-router-dom';
 import { BeatLoader } from 'react-spinners';
 
 function App() {
