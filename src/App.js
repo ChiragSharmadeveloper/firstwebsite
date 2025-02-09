@@ -3,9 +3,11 @@ import Banner from './Banner';
 import VideoPlayer from './Video';
 import Footer from './Footer';
 import"./index.css";
+import HomePage from './home/Home';
 // import Link from 'next/link';
-import { Link } from 'react-router-dom';
+import { BrowserRouter as Route, Routes } from 'react-router-dom';
 import { BeatLoader } from 'react-spinners';
+import ProductPage from './products/Product';
 
 
 function App() {
@@ -14,7 +16,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 2000);
   }, []);
 
   return (
@@ -37,11 +39,13 @@ function App() {
       <i class="fa-solid fa-user" id='login'></i>
       </header>
       <div className="header2">
-          <ul>
-          <li>Home</li>
-            {/* <li><Link href="/about">About</Link></li>
-            <li><Link href="/products">Products</Link></li> */}
-          </ul>
+          <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/about" element={<About />}/>
+      <Route path="/products/Product.js" element={<ProductPage/>}/>
+    </Routes>
+  </BrowserRouter>
           </div>
           
 
