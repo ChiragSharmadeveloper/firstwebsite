@@ -8,12 +8,14 @@
     background-color: black;
 }
 #bbs{
+  font-size: 60px;
  text-decoration: none;
  color: white;
 }
 .header2{
   color:black;
   background-color: #808080;
+  
 }
 .header2 ul{
   display:flex;

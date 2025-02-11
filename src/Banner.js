@@ -32,7 +32,7 @@ const Banner = ({title , urlimage}) => {
     <Card image={"/image/KASHMIRI BAT.jpg"} title1={"KASHMIRI WILLOW"} id="card1"/>
     <Card image={"/image/english bat.jpg"} title1={"ENGLISH WILLOW"} id="card1"/>
     <Card image={"/image/full kit.jpg"} title1={"FULL KIT"} id="card1"/>
-    <Card image={"/image/limited gloves.jpg"} title1={"BALLS"} id="card1"/>
+    <Card image={"/image/ball.jpg"} title1={"BALLS"} id="card1"/>
     </div>
 
     

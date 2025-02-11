@@ -29,7 +29,7 @@ const MovingText = () => {
       <div
         style={{
           display: "flex",
-          gap: "20px",
+          gap: "10px",
           fontSize: "34px",
           fontWeight: "bold",
           color: "black",
@@ -38,7 +38,7 @@ const MovingText = () => {
           transform: `translateX(${position}px)`,
         }}
       >
-        BELIEVE <span style={{ color: "red" }}>🔴</span> SELF <span style={{ color: "red" }}>🔴</span> BELIEVE <span style={{ color: "red" }}>🔴</span> SELF <span style={{ color: "red" }}>🔴 </span> BELIEVE <span style={{ color: "red" }}>🔴</span>SELF <span style={{ color: "red" }}>🔴</span> BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF <span style={{ color: "red" }}>🔴 </span> BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF <span style={{ color: "red" }}>🔴 </span> BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF <span style={{ color: "red" }}>🔴 </span> BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF <span style={{ color: "red" }}>🔴 </span> BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF <span style={{ color: "red" }}>🔴 </span> BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF <span style={{ color: "red" }}>🔴 </span> BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF <span style={{ color: "red" }}>🔴 </span> BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF <span style={{ color: "red" }}>🔴 </span> BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF <span style={{ color: "red" }}>🔴 </span> BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF <span style={{ color: "red" }}>🔴 </span> BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF <span style={{ color: "red" }}>🔴 </span> BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF <span style={{ color: "red" }}>🔴 </span> BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF <span style={{ color: "red" }}>🔴 </span> BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF <span style={{ color: "red" }}>🔴 </span> BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF <span style={{ color: "red" }}>🔴 </span> BELIEVE 
+        BELIEVE <span style={{ color: "red" }}>🔴</span> SELF BELIEVE <span style={{ color: "red" }}>🔴</span> SELF BELIEVE <span style={{ color: "red" }}>🔴</span>SELF BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF  BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF  BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF  BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF BELIEVE  <span style={{ color: "red" }}>🔴</span> SELF BELIEVE 
       </div>
     </div>
   );
