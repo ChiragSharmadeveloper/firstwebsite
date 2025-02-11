@@ -42,34 +42,34 @@
   }
   input[type='text']{
     height: 20px;
-    width: 180px;
+    width: 80px;
     border-radius: 5px;
     text-align: center;
   }
   input[type='text']:hover{
     height: 20px;
-    width: 180px;
+    width: 80px;
     border-color: red;
   }
   input[type='email']{
     height: 20px;
-    width: 180px;
+    width: 80px;
     border-radius: 5px;
     text-align: center;
   }
   input[type='email']:hover{
     height: 20px;
-    width: 180px;
+    width: 80px;
     border-color: red;
   }
   textarea[type='message']{
-    height: 60px;
+    height: 80px;
     width: 380px;
     border-radius: 5px;
     text-align: center;
   }
   textarea[type='message']:hover{
-    height: 60px;
+    height: 80px;
     width: 380px;
     border-color: red;
   }

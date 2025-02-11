@@ -200,7 +200,6 @@ const ProductPage = ({image2,title2,content1}) => {
      <button> <a href="#" className="btn">Buy Now</a></button>
     </div>
     </div>
-
     </div>
     </>
   );

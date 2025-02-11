@@ -1,10 +1,12 @@
 import react from 'react'
 import Card from './Card'
+import MovingText from './Selfbelieve';
 import './App.css'
 
 const Banner = ({title , urlimage}) => {
   return (
       <> 
+      
       <div className='banner'>
       <div>
         <h1>{title}</h1>
@@ -21,7 +23,7 @@ const Banner = ({title , urlimage}) => {
         <img src={urlimage} id="foto2"/>
       </div>
       </div>
-
+      
       <div className='cardholder'>
     <Card image={"/image/bag 2.jpg"} title1={"BAGS"} id="card1"/>
     <Card image={"/image/tennis b.jpg"} title1={"TENNIS BATS"} id="card1"/>
@@ -32,6 +34,8 @@ const Banner = ({title , urlimage}) => {
     <Card image={"/image/full kit.jpg"} title1={"FULL KIT"} id="card1"/>
     <Card image={"/image/limited gloves.jpg"} title1={"BALLS"} id="card1"/>
     </div>
+
+    
       <h1 id='believe'> ————  BELIEVE IN YOUR SELF  ————</h1>
     <div className="image-main">
     <div className="image-container"></div>
@@ -43,7 +47,7 @@ const Banner = ({title , urlimage}) => {
         <h1 > SELF </h1>
         </div>
         <div className='ketan'>
-        <img src="./image/athlete1.jpg" id='ketan'/>
+        <img src="./image/athlete1.jpg" alt="KETAN" id='ketan'/>
       </div>
       <div className='ashish'>
     <img src="./image/athlete2.jpg" alt='ashish chauhan' id='ashish'/>
@@ -52,6 +56,7 @@ const Banner = ({title , urlimage}) => {
       <h1> BELIEVE </h1>
       </div>
     </div>
+    <MovingText/>
     </>
     );
 };

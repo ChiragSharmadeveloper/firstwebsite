@@ -44,9 +44,9 @@ const Footer = () => {
 
     <input type="hidden" name="access_key" value="7a907100-0d09-41a8-adc5-f7b1de221320"></input>
 
-    <input type="text" name="name" id="i2" required placeholder="Enter Your Name : "></input> <br></br><br></br>
-    <input type="email" name="email" id="i2" required placeholder="Enter Your E-mail : "></input><br></br><br></br>
-    <textarea type="message" required placeholder="Enter Your Comment : "></textarea><br></br><br></br>
+    <input type="text" name="name" id="i2" required placeholder="Enter Your Name : "></input> <br></br>
+    <input type="email" name="email" id="i2" required placeholder="Enter Your E-mail : "></input><br></br>
+    <textarea type="message" required placeholder="Enter Your Comment : "></textarea><br></br>
 
      <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"></input>
      

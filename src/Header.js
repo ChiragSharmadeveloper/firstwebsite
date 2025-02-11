@@ -15,10 +15,9 @@ const Header = () => {
                  <li><a href="/">Home</a></li>
                 <li><a href="./about" target="_blank">About Us.</a></li>
                 <li><a href="./contact" target="_blank">Contact Us.</a></li>
-                <li><a href="./products/" target="_blank">Products</a></li>
+                <li><a href="./products" target="_blank">Products</a></li>
             </ul>
           </div>
-
     </>
   )
 }
