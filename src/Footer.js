@@ -46,7 +46,7 @@ const Footer = () => {
 
     <input type="text" name="name" id="i2" required placeholder="Enter Your Name : "></input> <br></br>
     <input type="email" name="email" id="i2" required placeholder="Enter Your E-mail : "></input><br></br>
-    <textarea type="message" required placeholder="Enter Your Comment : "></textarea><br></br>
+    <textarea type="message" required placeholder="Enter Your Comment : " spellCheck="true"></textarea><br></br>
 
      <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"></input>
      

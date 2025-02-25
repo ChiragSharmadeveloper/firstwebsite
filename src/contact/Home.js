@@ -7,10 +7,10 @@ const Home = () => {
 
      <ul>
               <h2>BB SPORTS SPACE</h2>
-            <li><a href="https://g.co/kgs/ihp9MQV" target="_blank">UTTAR PARDESH , MEERUT</a></li>
-            <li><a href="https://g.co/kgs/ihp9MQV" target="_blank">GUJRAT , BHAVNAGAR</a></li>
-            <li><a href="https://g.co/kgs/ihp9MQV" target="_blank">NEW DELHI , CHIRAG DELHI</a></li>
-            <li><a href="https://g.co/kgs/ihp9MQV" target="_blank">COMING SOON....</a></li>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3490.8023066920205!2d77.7392802!3d28.963587600000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c65d68c3aa015%3A0x8ae8db9587cb4db9!2sBabita%20Bhardwaj%20sports!5e0!3m2!1sen!2sin!4v1739364491253!5m2!1sen!2sin" width="100" height="50" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"/>
+            <li><a href="https://maps.app.goo.gl/BoGFN4ZyMZN8rHJ66" target="_blank">GUJRAT , BHAVNAGAR</a></li>
+            <li><a href="/" target="_blank">NEW DELHI , CHIRAG DELHI</a></li>
+            <li><a href="/" target="_blank">COMING SOON....</a></li>
         </ul>
         </div>
 
