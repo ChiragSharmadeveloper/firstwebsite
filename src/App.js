@@ -4,10 +4,18 @@ import Banner from './Banner';
 import VideoPlayer from './Video';
 import Footer from './Footer';
 import"./index.css";
-// import Link from 'next/link';
+import Navbar from './Components/Navbar';
+import About from './About';
+import Contact from './contact/Contact';
+import { Routes,Route } from 'react-router-dom';
+import ProductPage from './products/Product';
 import { BeatLoader } from 'react-spinners';
 
-function App() {
+
+
+
+function  App() {
+
   const[loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -25,16 +33,25 @@ function App() {
           <BeatLoader color="#3498db" loading={loading} size={15} />
         </div>
       ) : (
-        <div></div>
+        <div>
+          
+        </div>
       )}
     </div>
 
-     <div className="App">     
+
 <Header/>
-</div>
-<Banner title={"BB Sports: Your Ultimate Destination for Cricket Gear "} urlimage={"/image/transperent logo.png"}/> 
-  <VideoPlayer/>
+<Navbar/>
+<Routes>
+ < Route path="/" element={<Banner/>}/>
+  <Route path="/about" element={<About/>} />
+  <Route path="/contact" element={<Contact/>} />
+  <Route path="/Products" element={<ProductPage/>} />
+      <Route path="/" element={<VideoPlayer/>} />
+</Routes>
+
 <Footer/>
+
     </>
   );
 }
