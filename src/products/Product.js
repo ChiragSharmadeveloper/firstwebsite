@@ -39,18 +39,76 @@ const ProductPage = ({image2,title2,content1}) => {
 
   return (
     <>
+    {/* { main div} */}
     <div className="card10">
+
+
+    {/* { card div} */}
     <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={290} height={270} />
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..."  />
     <div className="">
       <h1 className="card-title">Gloves </h1>
       <p className="card-text">₹540</p>
-     <button type="button" className="btn btn-success"><a href="#" >Buy Now</a></button>
+     <button type="button" ><a  className="btn" href="#" >Buy Now</a></button>
     </div>
     </div>
 
     <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
+    </div>
+    </div>
+
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
     <div className="">
       <h2 className="card-title">English Willow Bats</h2>
       <p className="card-text">₹9000</p>
@@ -68,7 +126,7 @@ const ProductPage = ({image2,title2,content1}) => {
     </div>
 
     <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
     <div className="">
       <h2 className="card-title">English Willow Bats</h2>
       <p className="card-text">₹9000</p>
@@ -77,7 +135,7 @@ const ProductPage = ({image2,title2,content1}) => {
     </div>
 
     <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
     <div className="">
       <h2 className="card-title">English Willow Bats</h2>
       <p className="card-text">₹9000</p>
@@ -86,7 +144,7 @@ const ProductPage = ({image2,title2,content1}) => {
     </div>
 
     <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
     <div className="">
       <h2 className="card-title">English Willow Bats</h2>
       <p className="card-text">₹9000</p>
@@ -95,7 +153,7 @@ const ProductPage = ({image2,title2,content1}) => {
     </div>
 
     <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
     <div className="">
       <h2 className="card-title">English Willow Bats</h2>
       <p className="card-text">₹9000</p>
@@ -104,7 +162,15 @@ const ProductPage = ({image2,title2,content1}) => {
     </div>
 
     <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
+    <div className="">
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button> <a href="#" className="btn">Buy Now</a></button>
+    </div>
+    </div>
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
     <div className="">
       <h2 className="card-title">English Willow Bats</h2>
       <p className="card-text">₹9000</p>
@@ -113,7 +179,7 @@ const ProductPage = ({image2,title2,content1}) => {
     </div>
 
     <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
     <div className="">
       <h2 className="card-title">English Willow Bats</h2>
       <p className="card-text">₹9000</p>
@@ -122,7 +188,7 @@ const ProductPage = ({image2,title2,content1}) => {
     </div>
 
     <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
     <div className="">
       <h2 className="card-title">English Willow Bats</h2>
       <p className="card-text">₹9000</p>
@@ -131,69 +197,7 @@ const ProductPage = ({image2,title2,content1}) => {
     </div>
 
     <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
-    <div className="">
-      <h2 className="card-title">English Willow Bats</h2>
-      <p className="card-text">₹9000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
-    <div className="">
-      <h2 className="card-title">English Willow Bats</h2>
-      <p className="card-text">₹9000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
-    <div className="">
-      <h2 className="card-title">English Willow Bats</h2>
-      <p className="card-text">₹9000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
-    <div className="">
-      <h2 className="card-title">English Willow Bats</h2>
-      <p className="card-text">₹9000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
-    </div>
-    </div>
-    <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
-    <div className="">
-      <h2 className="card-title">English Willow Bats</h2>
-      <p className="card-text">₹9000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
-    <div className="">
-      <h2 className="card-title">English Willow Bats</h2>
-      <p className="card-text">₹9000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
-    <div className="">
-      <h2 className="card-title">English Willow Bats</h2>
-      <p className="card-text">₹9000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
     <div className="">
       <h2 className="card-title">English Willow Bats</h2>
       <p className="card-text">₹9000</p>
