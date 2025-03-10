@@ -49,7 +49,7 @@ const ProductPage = ({image2,title2,content1}) => {
     <div className="">
       <h1 className="card-title">Gloves </h1>
       <p className="card-text">₹540</p>
-     <button type="button" ><a  className="btn" href="#" >Buy Now</a></button>
+     <button type="button" className='btn'><a  className="btn" href="#" >Buy Now</a></button>
     </div>
     </div>
 

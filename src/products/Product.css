@@ -14,6 +14,14 @@
     height:370px ;
 }
 .btn{
-    color:yellow;
-    justify-content: center;
+    background-color: rgb(94, 94, 236);
+    text-align: center;
+    color:black;
+    font-size: medium;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+
+
 }
