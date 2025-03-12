@@ -1,12 +1,15 @@
 import react from 'react'
 import Card from './Card'
 import MovingText from './Selfbelieve';
+import transperentlogo from './Components/transperent logo.png'
 import './App.css'
 
-const Banner = ({title , urlimage}) => {
+const Banner = ({title }) => {
   return (
       <> 
-      
+    {/* {/* 'banner div '>} */}
+
+    {/* { Top banner} */}
       <div className='banner'>
       <div>
         <h1>{title}</h1>
@@ -20,9 +23,12 @@ const Banner = ({title , urlimage}) => {
        
       </div>
       <div>
-        <img src={urlimage} id="foto2"/>
+        <img src={transperentlogo} id="foto2"/>
       </div>
       </div>
+
+
+      {/* { Card section } */}
       
       <div className='cardholder'>
     <Card image={"/image/bag 2.jpg"} title1={"BAGS"} id="card1"/>
@@ -36,26 +42,17 @@ const Banner = ({title , urlimage}) => {
     </div>
 
     
+
+
+
+    {/* { Changing image section } */}
       <h1 id='believe'> ————  BELIEVE IN YOUR SELF  ————</h1>
     <div className="image-main">
     <div className="image-container"></div>
     <div className="image-container"></div>
     <div className="image-container"></div>
     </div>
-    <div className='banner2'>
-      <div className="self">
-        <h1 > SELF </h1>
-        </div>
-        <div className='ketan'>
-        <img src="./image/athlete1.jpg" alt="KETAN" id='ketan'/>
-      </div>
-      <div className='ashish'>
-    <img src="./image/athlete2.jpg" alt='ashish chauhan' id='ashish'/>
-    </div>
-        <div className="believe2">
-      <h1> BELIEVE </h1>
-      </div>
-    </div>
+ 
     <MovingText/>
     </>
     );
