@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const MovingText = () => {
   const [position, setPosition] = useState(0);
-  const speed = 2;
+  const speed = 1;
 
   useEffect(() => {
     const moveText = () => {

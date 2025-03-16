@@ -50,7 +50,7 @@ const Footer = () => {
 
      <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"></input>
      
-    <button type="submit">Submit Form</button>
+    <button type="submit" id="i3">Submit</button>
 </form>
 </ul>
             <ul>
