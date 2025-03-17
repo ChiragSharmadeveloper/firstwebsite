@@ -43,7 +43,8 @@ function  App() {
 <Header/>
 <Navbar/>
 <Routes>
- < Route path="/" element={<Banner/>}/>
+<Route path="/" element={<Header/>}/>
+ <Route path="/" element={<Banner/>}/>
   <Route path="/about" element={<About/>} />
   <Route path="/contact" element={<Contact/>} />
   <Route path="/Products" element={<ProductPage/>} />
