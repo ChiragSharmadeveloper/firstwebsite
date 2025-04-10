@@ -137,7 +137,7 @@ const ProductPage = ({image2,title2,content1}) => {
     <div className="card-body" >
     <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
     <div className="">
-      <h2 className="card-title">English Willow Bats</h2>
+      <h2 className="card-title">English Willow Bats</h2>      
       <p className="card-text">₹9000</p>
      <button> <a href="#" className="btn">Buy Now</a></button>
     </div>
