@@ -1,6 +1,5 @@
 import react from 'react'
 import Card from './Card'
-import MovingText from './Selfbelieve';
 import transperentlogo from './Components/transperent logo.png'
 import './App.css'
 
@@ -41,9 +40,7 @@ const Banner = ({title }) => {
     <Card image={"/image/ball.jpg"} title1={"BALLS"} id="card1"/>
     </div>
 
-    
-
-
+  
 
     {/* { Changing image section } */}
       <h1 id='believe'> ————  BELIEVE IN YOUR SELF  ————</h1>
@@ -52,8 +49,6 @@ const Banner = ({title }) => {
     <div className="image-container"></div>
     <div className="image-container"></div>
     </div>
- 
-    <MovingText/>
     </>
     );
 };

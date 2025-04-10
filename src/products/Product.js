@@ -45,11 +45,11 @@ const ProductPage = ({image2,title2,content1}) => {
 
     {/* { card div} */}
     <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..."  />
+    <img src="./image/bat 1.jpg" className="card-img-top" alt="..." />
     <div className="">
-      <h1 className="card-title">Gloves </h1>
-      <p className="card-text">₹540</p>
-     <button type="button" className='btn'><a  className="btn" href="#" >Buy Now</a></button>
+      <h2 className="card-title">English Willow Bats</h2>
+      <p className="card-text">₹9000</p>
+     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
     </div>
     </div>
 
@@ -58,7 +58,7 @@ const ProductPage = ({image2,title2,content1}) => {
     <div className="">
       <h2 className="card-title">English Willow Bats</h2>
       <p className="card-text">₹9000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
+     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
     </div>
     </div>
 
@@ -67,7 +67,7 @@ const ProductPage = ({image2,title2,content1}) => {
     <div className="">
       <h2 className="card-title">Full Kits</h2>
       <p className="card-text">₹7000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
+     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
     </div>
     </div>
 
@@ -76,16 +76,16 @@ const ProductPage = ({image2,title2,content1}) => {
     <div className="">
       <h2 className="card-title">Balls</h2>
       <p className="card-text">₹250 each.</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
+     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
     </div>
     </div>
 
     <div className="card-body" >
     <img src="./image/KASHMIRI bat.jpg" className="card-img-top" alt="..." />
     <div className="">
-      <h2 className="card-title">Kashmiri Willow Bats</h2>
+      <h2 className="card-title">K.m Willow Bats</h2>
       <p className="card-text">₹6000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
+     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
     </div>
     </div>
 
@@ -94,7 +94,7 @@ const ProductPage = ({image2,title2,content1}) => {
     <div className="">
       <h2 className="card-title">Batting Pads</h2>
       <p className="card-text">₹2000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
+     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
     </div>
     </div>
 
@@ -103,7 +103,7 @@ const ProductPage = ({image2,title2,content1}) => {
     <div className="">
       <h2 className="card-title">Tennis Bats</h2>
       <p className="card-text">₹2000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
+     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
     </div>
     </div>
 
@@ -112,7 +112,7 @@ const ProductPage = ({image2,title2,content1}) => {
     <div className="">
       <h2 className="card-title">English Willow Bats</h2>
       <p className="card-text">₹9000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
+     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
     </div>
     </div>
 
@@ -121,7 +121,7 @@ const ProductPage = ({image2,title2,content1}) => {
     <div className="">
       <h2 className="card-title">English Willow Bats</h2>
       <p className="card-text">₹9000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
+     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
     </div>
     </div>
 
@@ -130,7 +130,7 @@ const ProductPage = ({image2,title2,content1}) => {
     <div className="">
       <h2 className="card-title">English Willow Bats</h2>
       <p className="card-text">₹9000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
+     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
     </div>
     </div>
 
@@ -139,7 +139,7 @@ const ProductPage = ({image2,title2,content1}) => {
     <div className="">
       <h2 className="card-title">English Willow Bats</h2>      
       <p className="card-text">₹9000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
+     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
     </div>
     </div>
 
@@ -148,7 +148,7 @@ const ProductPage = ({image2,title2,content1}) => {
     <div className="">
       <h2 className="card-title">English Willow Bats</h2>
       <p className="card-text">₹9000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
+     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
     </div>
     </div>
 
@@ -157,7 +157,7 @@ const ProductPage = ({image2,title2,content1}) => {
     <div className="">
       <h2 className="card-title">English Willow Bats</h2>
       <p className="card-text">₹9000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
+     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
     </div>
     </div>
 
@@ -166,16 +166,16 @@ const ProductPage = ({image2,title2,content1}) => {
     <div className="">
       <h2 className="card-title">English Willow Bats</h2>
       <p className="card-text">₹9000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
+     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
     </div>
     </div>
 
-    <div className="card1" >
-    <img src="./image/limited gloves.jpg" className="img1" alt="..." />
+    <div className="card-body" >
+    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
     <div className="">
       <h2 className="card-title">English Willow Bats</h2>
       <p className="card-text">₹9000</p>
-     <button> <a href="#" className="btn">Buy Now</a></button>
+     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
     </div>
     </div>
     </div>
