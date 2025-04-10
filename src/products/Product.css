@@ -37,6 +37,4 @@
     height:300px;
     transition: opacity 5.0s ease;
 }
-.card1:hover .img1{
-    content: url('C:\Users\Abhay Pratap\Desktop\elitedecor_react\firstwebsite\public\image\G 1.jpg')
-}
+
