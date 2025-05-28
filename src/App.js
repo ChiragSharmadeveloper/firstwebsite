@@ -4,7 +4,7 @@ import Banner from './Banner';
 import VideoPlayer from './Video';
 import Footer from './Footer';
 import"./index.css";
-import Navbar from './Components/Navbar';
+import Navbar from './Navbar';
 import About from './About';
 import Contact from './contact/Contact';
 import { Routes,Route } from 'react-router-dom';
@@ -21,13 +21,13 @@ function  App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 300);
   }, []);
 
   return (
     <>
 
-<div>
+<div class='overflw'>
       {loading ? (
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
           <BeatLoader color="#3498db" loading={loading} size={15} />

@@ -7,9 +7,10 @@
     padding:0px 90px;
     background-color: black;
     width: 100%;
-    height: 100px;
-    margin-top: -15px;
-    
+    height: 90px;
+}
+.overflw{
+  overflow: hidden;
 }
 #bbs{
   font-size: 60px;
@@ -19,13 +20,10 @@
 .header2{
   color:black;
   background-color: #808080;
-  width: 80%;
+  width: auto;
   height: 60px;
-  margin-top: -12px;
-  border-radius: 40px;
-  margin-left: 150px;
+  
 }
-
 .header2 ul{
   display:flex;
   text-align: center;
@@ -33,18 +31,14 @@
   padding:0px 190px;
 }
 .header2 ul li{
-  text-decoration: none;
-  list-style-type: none;
   margin-top: 15px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: larger;
-}
-.header2 ul li {
+  color:white; 
   list-style-type: none;
   text-decoration: none;
-  color:white; 
-  text-decoration:none ;
 }
+ 
 #foto{
     border-radius: 50%;
     box-shadow: 5px grey;
@@ -59,3 +53,4 @@
     margin: 20px;
     color: white;
   }
+

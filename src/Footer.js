@@ -46,9 +46,9 @@ const Footer = () => {
 
     <input type="text" name="name" id="i2" required placeholder="Enter Your Name : "></input> <br></br>
     <input type="email" name="email" id="i2" required placeholder="Enter Your E-mail : "></input><br></br>
-    <textarea type="message" required placeholder="Enter Your Comment : " spellCheck="true"></textarea><br></br>
+    <textarea type="message" required id='feedback' placeholder="Enter Your Comment : " spellCheck="true"></textarea><br></br>
 
-     <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"></input>
+     <input type="hidden" name="redirect"  value="https://mywebsite.com/thanks.html"></input>
      
     <button type="submit" id="i3">Submit</button>
 </form>
@@ -66,8 +66,8 @@ const Footer = () => {
       
       <div className='lastfoot'>
         <h1 id='lastfoot1'> BABITA BHARDWAJ SPORTS</h1>
-        <i class="fa-solid fa-registered" > 2019 | Design  Partners  :  Abhay  &  Team</i>
-        <i class="fa-solid fa-copyright"  > copyright   BABITA   BHARDWAJ   SPORTS</i>
+        <span class="fa-solid fa-registered" > 2019 | Design  Partners  :  Abhay  &  Team</span>
+        <span class="fa-solid fa-copyright" id='copy' > copyright   BABITA   BHARDWAJ   SPORTS</span>
       </div>
       </footer>
     </>
