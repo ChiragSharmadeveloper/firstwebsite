@@ -14,9 +14,10 @@ const Contact = () => {
  <h2 class='head'>BB SPORTS SPACE</h2>
               <h1 class='maphead'>Google Map Location</h1>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3490.8023066920205!2d77.7392802!3d28.963587600000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c65d68c3aa015%3A0x8ae8db9587cb4db9!2sBabita%20Bhardwaj%20sports!5e0!3m2!1sen!2sin!4v1739364491253!5m2!1sen!2sin" class='googlemap'  loading="lazy" referrerpolicy="no-referrer-when-downgrade"/>
+        <h2>Locations for Visit </h2>
      <ul> 
              <li><a href="/" target="_blank" class='locations'>MEERUT ,  UTTAR PRADESH</a></li>
-            <li><a href="https://maps.app.goo.gl/BoGFN4ZyMZN8rHJ66" target="_blank" class='locations'>GUJRAT , BHAVNAGAR</a></li>
+            <li><a href="https://maps.app.goo.gl/BoGFN4ZyMZN8rHJ66" target="_blank" class='locations'> GUJRAT , BHAVNAGAR</a></li>
            
             <li><a href="/" target="_blank" class='locations'>NEW DELHI , CHIRAG DELHI</a></li>
             
