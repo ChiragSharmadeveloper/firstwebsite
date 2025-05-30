@@ -31,6 +31,7 @@ const ProductPage = () => {
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
     >
+<<<<<<< HEAD
       <div className='main'>
         
       <SwiperSlide>
@@ -40,6 +41,12 @@ const ProductPage = () => {
       <SwiperSlide>Slide 3</SwiperSlide>
       <SwiperSlide>Slide 4</SwiperSlide>
       </div>
+=======
+      <SwiperSlide><h1>Slide 1</h1></SwiperSlide>
+      <SwiperSlide><h1>Slide 1</h1></SwiperSlide>
+      <SwiperSlide><h1>Slide 1</h1></SwiperSlide>
+      <SwiperSlide><h1>Slide 1</h1></SwiperSlide>
+>>>>>>> 834e07f4e9066de8291f5086f0abcffbeec7e831
     </Swiper>
       <button class='rbtn1'><SlArrowRight /></button>
 
