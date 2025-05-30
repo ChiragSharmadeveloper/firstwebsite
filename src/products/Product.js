@@ -1,184 +1,42 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import './Product.css'
 
-// const ProductCard = ({ product , Cards , Button }) => {
-//   return (
-//     <Cards className="m-3">
-//       <Cards.Img variant="top" src={product.image} alt={product.title} />
-//       <Cards.Body>
-//         <Cards.Title>{product.title}</Cards.Title>
-//         <Cards.Text>{product.description}</Cards.Text>
-//         <Button vari">Buy Now</Button>
-//       </Cards.Body>
-//     </Cards>
-//   );
-// };
-
-const ProductPage = ({image2,title2,content1}) => {
-  const products = [
-    {
-      id: 1,
-      title: 'Premium Cricket Bat',
-      image: 'E:\Mywebsite\firstwebsite\public\image\bat 4.jpg', // Replace with real image URLs
-      description: 'A premium cricket bat made of top-grade English Willow for superior performance.',
-    },
-    {
-      id: 2,
-      title: 'Cricket Ball',
-      image: 'E:\Mywebsite\firstwebsite\public\image\bat 4.jpg', // Replace with real image URLs
-      description: 'A high-quality cricket ball designed for durability and performance.',
-    },
-    {
-      id: 3,
-      title: 'Cricket Kit Bag',
-      image: 'E:/Mywebsite/firstwebsite/public/image/bat 4.jpg', // Replace with real image URLs
-      description: 'A spacious and durable kit bag to store all your cricket gear.',
-    },
-  ];
-
+const ProductPage = () => {
+  
+  
   return (
     <>
-    
-    {/* { main div} */}
-    <div className="card10">
-
-    {/* { card div} */}
-    <div className="card-body" >
-    <img src="./image/bat 1.jpg" className="card-img-top" alt="..." />
-    <div className="">
-      <h2 className="card-title">English Willow Bats</h2>
-      <p className="card-text">₹9000</p>
-     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/bat 1.jpg" className="card-img-top" alt="..." />
-    <div className="">
-      <h2 className="card-title">English Willow Bats</h2>
-      <p className="card-text">₹9000</p>
-     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/k bag 1.jpg" className="card-img-top" alt="..." />
-    <div className="">
-      <h2 className="card-title">Full Kits</h2>
-      <p className="card-text">₹7000</p>
-     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/ball.jpg" className="card-img-top" alt="..." />
-    <div className="">
-      <h2 className="card-title">Balls</h2>
-      <p className="card-text">₹250 each.</p>
-     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/KASHMIRI bat.jpg" className="card-img-top" alt="..." />
-    <div className="">
-      <h2 className="card-title">K.m Willow Bats</h2>
-      <p className="card-text">₹6000</p>
-     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/PP2.jpg" className="card-img-top" alt="..." />
-    <div className="">
-      <h2 className="card-title">Batting Pads</h2>
-      <p className="card-text">₹2000</p>
-     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/tennis b.jpg" className="card-img-top" alt="..." />
-    <div className="">
-      <h2 className="card-title">Tennis Bats</h2>
-      <p className="card-text">₹2000</p>
-     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
-    <div className="">
-      <h2 className="card-title">English Willow Bats</h2>
-      <p className="card-text">₹9000</p>
-     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." width={190} height={170} />
-    <div className="">
-      <h2 className="card-title">English Willow Bats</h2>
-      <p className="card-text">₹9000</p>
-     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
-    <div className="">
-      <h2 className="card-title">English Willow Bats</h2>
-      <p className="card-text">₹9000</p>
-     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
-    <div className="">
-      <h2 className="card-title">English Willow Bats</h2>      
-      <p className="card-text">₹9000</p>
-     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
-    <div className="">
-      <h2 className="card-title">English Willow Bats</h2>
-      <p className="card-text">₹9000</p>
-     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
-    <div className="">
-      <h2 className="card-title">English Willow Bats</h2>
-      <p className="card-text">₹9000</p>
-     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
-    <div className="">
-      <h2 className="card-title">English Willow Bats</h2>
-      <p className="card-text">₹9000</p>
-     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
-    </div>
-    </div>
-
-    <div className="card-body" >
-    <img src="./image/limited gloves.jpg" className="card-img-top" alt="..." />
-    <div className="">
-      <h2 className="card-title">English Willow Bats</h2>
-      <p className="card-text">₹9000</p>
-     <button type="button" className='btn'> <a href="#" className="">Buy Now</a></button>
-    </div>
-    </div>
-    </div>
+       <Swiper
+      
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      spaceBetween={50}
+      slidesPerView={1}
+       navigation={
+        {
+        nextEl: '.rightbtn',
+        prevEl: '.leftbtn'
+      }}
+      freeMode={true}
+        pagination={
+          { clickable: true }
+        }
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
+    >
+      <SwiperSlide>Slide 1</SwiperSlide>
+      <SwiperSlide>Slide 2</SwiperSlide>
+      <SwiperSlide>Slide 3</SwiperSlide>
+      <SwiperSlide>Slide 4</SwiperSlide>
+      1 2 3 . .
+    </Swiper>
+     
     </>
   );
 };

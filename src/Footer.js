@@ -55,11 +55,11 @@ const Footer = () => {
 </ul>
             <ul>
             <div >
-            <a href='https://www.facebook.com/share/1AJjxYevrE/?mibextid=wwXIfr' target="_blank" className=" my-icon"><i><FaFacebook /> FACEBOOK</i></a>
+            <a href='https://www.facebook.com/share/1AJjxYevrE/?mibextid=wwXIfr' target="_blank" className="my-icon"><i><FaFacebook /> FACEBOOK</i></a>
              {/* <i className=" my-icon"><ImTwitter /> TWITTER</i> */}
-            <a href="https://www.instagram.com/babita_sports?igsh=MTBydXR0NzEzNHhhOQ==" target="_blank" className=" my-icon"><i ><FaInstagram /> INSTAGRAM</i></a>
+            <a href="https://www.instagram.com/babita_sports?igsh=MTBydXR0NzEzNHhhOQ==" target="_blank" className="my-icon"><i ><FaInstagram /> INSTAGRAM</i></a>
             {/* <i className=" my-icon"><FaLinkedinIn /> LINKDIN</i> */}
-            <a href="https://youtube.com/@babitasports?si=BeoSVuQIT6tjKiiJ" target="_blank" className=" my-icon"><i><AiOutlineYoutube /> YOUTUBE</i></a>
+            <a href="https://youtube.com/@babitasports?si=BeoSVuQIT6tjKiiJ" target="_blank" className="my-icon"><i><AiOutlineYoutube /> YOUTUBE</i></a>
         </div>
         </ul>
         </div>
