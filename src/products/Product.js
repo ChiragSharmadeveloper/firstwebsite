@@ -6,8 +6,12 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination, A11y } from 'swiper/modules';
 import './Product.css'
+<<<<<<< HEAD
 import { SlArrowLeft } from "react-icons/sl";
 import { SlArrowRight } from "react-icons/sl";
+=======
+import img1 from'';
+>>>>>>> 41e3c39bb02e96c6b737d79f046004cb5b41cf06
 
 const ProductPage = () => {
   

@@ -21,8 +21,6 @@ const About = () => {
       <p>Our vision at BB Sports is to become the leading global brand for cricket equipment, recognized for our commitment to quality, innovation, and customer satisfaction. We aim to inspire and empower cricketers of all ages and skill levels by providing top-tier gear that enhances their performance and passion for the game. By continuously evolving with the sport, we strive to stay ahead of market trends and offer cutting-edge solutions to players worldwide. Our ultimate goal is to cultivate a thriving cricket community and be the trusted partner for every cricketer’s journey, from grassroots to professional levels.</p>
       </div>
     </div>
-    
-    
   )
 }
 
