@@ -1,5 +1,7 @@
 import react from 'react'
 import Card from './Card'
+import VideoPlayer from './Video';
+
 import transperentlogo from './Components/transperent logo.png'
 import './App.css'
 
@@ -10,7 +12,7 @@ const Banner = ({title }) => {
 
     {/* { Top banner} */}
       <div className='banner'>
-      <div>
+      <div className='welcome'>
         <h1>{title}</h1>
         <h4>Welcome to BB Sports, your one-stop shop for all things cricket. As passionate cricket enthusiasts, we understand the importance of quality equipment in enhancing performance on the field. Whether you're a beginner or a seasoned pro, we offer a wide range of cricket products designed to suit players of all levels.
 
@@ -21,9 +23,8 @@ const Banner = ({title }) => {
         Join the BB Sports family today, and take your cricket game to the next level with the finest equipment available. Your cricket journey starts here!</h4>
        
       </div>
-      <div>
+      
         <img src={transperentlogo} id="foto2"/>
-      </div>
       </div>
 
 
@@ -49,6 +50,8 @@ const Banner = ({title }) => {
     <div className="image-container"></div>
     <div className="image-container"></div>
     </div>
+
+<VideoPlayer/>
     </>
     );
 };

@@ -13,3 +13,12 @@
 .video-item video{
     border-radius: 3%;
 }
+.youtubesec{
+    font:'80px';
+    width: 98%;
+    height: auto;
+    color:white;
+    background-color: black;
+    text-align: center;
+    padding: 10px ;
+}

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Header from './Header';
 import Banner from './Banner';
-import VideoPlayer from './Video';
 import Footer from './Footer';
 import"./index.css";
 import Navbar from './Navbar';
@@ -47,7 +46,7 @@ function  App() {
   <Route path="/about" element={<About/>} />
   <Route path="/contact" element={<Contact/>} />
   <Route path="/Products" element={<ProductPage/>} />
-      <Route path="/" element={<VideoPlayer/>} />
+      {/* <Route path="/" element={<VideoPlayer/>} /> */}
 </Routes>
 
 <Footer/>

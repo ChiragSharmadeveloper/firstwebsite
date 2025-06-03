@@ -4,6 +4,8 @@ import './Video.css'
 const VideoPlayer = () => {
   return (
     <>
+      <h1 className='youtubesec'>  ———— SHORTS FOR YOU ————</h1>
+
     <div className="video-main">
       <div className='video-item'>
       <a href="https://www.instagram.com/babita_sports?igsh=MTBydXR0NzEzNHhhOQ==" target="_blank"></a>
